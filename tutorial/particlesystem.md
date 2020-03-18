@@ -1,4 +1,4 @@
-#Particle Systemを使って桜の花びらをはらはらと散らすそう
+# Particle Systemを使って桜の花びらをはらはらと散らすそう
 
 最初にDevToolTipを装備して、メニューボタンでリングメニューを出して、図のようにCreate New...をプライマリーアクションで呼び出します。
 ![pic1](https://pbs.twimg.com/media/ETUWxTfUUAIf6Hn?format=jpg&name=large "pic1")

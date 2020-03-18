@@ -5,16 +5,16 @@
 LogiXのノードやToolTipsなど、各項目について詳しく知りたい方は日本語Wikiをご利用ください。
   
 - チュートリアル (LogiXやDevToolTipのチュートリアル) 
-  - [DevToolTip](chtoriaru/devtool.md)
-  - [LogiX](chtoriaru/logix.md)  
-  - [Particle System](chtoriaru/particlesystem.md)  
+  - [DevToolTip](tutorial/devtool.md)
+  - [LogiX](tutorial/logix.md)  
+  - [Particle System](tutorial/particlesystem.md)  
   - [工事中]
   
 <br>
 <br>
 
 - メイキング・作例（外部リンクなど解説をまとめたもの）
-  - [実例](shi-li/jiturei.md)  
+  - [実例](examples/jiturei.md)  
   - [工事中]
   
 ----
