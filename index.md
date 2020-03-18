@@ -13,10 +13,11 @@ LogiXやDevToolTipのチュートリアルです。
   
 URLや外部リンクなど、解説をまとめたものです。  
 [実例](shi-li/jiturei.md)  
-
-
-
-
+  
+  
+  
+----
+[編集規則.メンバーなど](CONTRIBUTING.md)
 
 
 
