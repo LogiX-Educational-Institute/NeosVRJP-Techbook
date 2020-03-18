@@ -4,7 +4,7 @@
 
 ## 実例
 
-* [Untitled](shi-li/untitled.md)
+* [実例](shi-li/untitled.md)
 
 ## チュートリアル
 
