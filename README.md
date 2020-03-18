@@ -12,6 +12,8 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
 
 
 
+{% page-ref page="shi-li/untitled.md" %}
+
 
 
 
