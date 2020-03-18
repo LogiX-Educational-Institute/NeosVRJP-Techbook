@@ -17,7 +17,7 @@ URLや外部リンクなど、解説をまとめたものです。
   
   
 ----
-[編集規則.メンバーなど](docs/CONTRIBUTING.md)
+[編集規則.メンバーなど](docs/contributing.md)
 
 
 
