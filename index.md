@@ -7,6 +7,7 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
 - チュートリアル (LogiXやDevToolTipのチュートリアル) 
   - [DevToolTip](chtoriaru/devtool.md)
   - [LogiX](chtoriaru/logix.md)  
+  - [Particle System](chtoriaru/particlesystem.md)  
   - [工事中]
   
 <br>
