@@ -5,14 +5,14 @@
 LogiXのノードやToolTipsなど、各項目について詳しく知りたい方は日本語Wikiをご利用ください。
   
   
-LogiXやDevToolTipのチュートリアルです。
-[DevToolTip](chtoriaru/devtool.md)
-
-[LogiX](chtoriaru/logix.md)
+LogiXやDevToolTipのチュートリアルです。  
+[DevToolTip](chtoriaru/devtool.md)  
+  
+[LogiX](chtoriaru/logix.md)  
   
   
-URLや外部リンクなど、解説をまとめたものです。
-[実例](shi-li/jiturei.md)
+URLや外部リンクなど、解説をまとめたものです。  
+[実例](shi-li/jiturei.md)  
 
 
 
