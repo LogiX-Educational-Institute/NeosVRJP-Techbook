@@ -19,6 +19,7 @@ NeosVRJP-Techbook
 - プルを行う（masterと同期させるため。）
 - 作業を行う
 - プルリクエストを行う。
+- contributings.mdに記事のURLを貼る。パスは（フォルダ/記事名.md）タイポ注意。
   
 # メンバー
   
