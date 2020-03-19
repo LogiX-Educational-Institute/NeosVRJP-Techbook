@@ -1,3 +1,5 @@
+NeosVRJP-Techbook
+
 # 編集について  
 
 - リポジトリは[NeosVRJP-Techbook](https://github.com/Melnus/NeosVRJP-Techbook)を使用します。
@@ -20,39 +22,21 @@
   
 # メンバー
   
-<details>
-<summary>melnus</summary>
-<div>
+- melnus  
+  - 管理  
+  -   
+  -   
   
-- 管理  
--   
--   
+- litalita
+  - [Particle Systemを使って桜の花びらをはらはらと散らそう](https://melnus.github.io/NeosVRJP-Techbook/tutorial/particlesystem.html)  
+  - [ユーザーリスト](https://melnus.github.io/NeosVRJP-Techbook/examples/UserList.html)  
+  - 
+  - 
   
-</div>
-</details>
-  
-<details>
-<summary>litalita</summary>
-<div>
-  
-- [Particle Systemを使って桜の花びらをはらはらと散らそう](https://melnus.github.io/NeosVRJP-Techbook/tutorial/particlesystem.html)  
-- [ユーザーリスト](https://melnus.github.io/NeosVRJP-Techbook/examples/UserList.html)  
-- 
-- 
-</div>
-</details>
-  
-<details>
-<summary>test</summary>
-<div>
-  
-- aa  
-- bb  
-- cc  
-- dd  
-  
-</div>
-</details>
-  
+- test  
+  - test  
+  -   
+  -  
+ 
 - [NeosVR日本語Wikiメンバー](https://neosvrjp.memo.wiki/members/)
   - チュートリアルなど
