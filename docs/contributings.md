@@ -7,31 +7,50 @@
 # 編集の手順
   
 - リポジトリをクローン
-- examples(実例)かtutorial(チュートリアル)のフォルダにsample.mdと作成し、Markdownで記事を書く。
-- indexを編集する
+- examples(実例)かtutorial(チュートリアル)のフォルダにsample（記事の名前を英語で書く）.mdと作成し、Markdownで記事を書く。
+- indexを編集する。パスは（フォルダ/記事名.md）タイポ注意。
 - docsにあるcontributings.mdに自分の名前を書く。
-
+  
+----
+  
+## 二回目以降
+- プルを行う（masterと同期させるため。）
+- 作業を行う
+- プルリクエストを行う。
+  
 # メンバー
   
 <details>
 <summary>melnus</summary>
 <pre>
 <code>
-<br>管理
-<br>
-<br>
-<br>
+- 管理
+- 
+- 
 </code>
 </pre>
 </details>
+  
 <details>
 <summary>litalita</summary>
 <pre>
 <code>
-<br>[Particle Systemを使って桜の花びらをはらはらと散らそう](https://melnus.github.io/NeosVRJP-Techbook/tutorial/particlesystem.html)
-<br>
-<br>
-<br>
+- [Particle Systemを使って桜の花びらをはらはらと散らそう](https://melnus.github.io/NeosVRJP-Techbook/tutorial/particlesystem.html)
+- [ユーザーリスト](https://melnus.github.io/NeosVRJP-Techbook/examples/UserList.html)
+- 
+- 
+</code>
+</pre>
+</details>
+  
+<details>
+<summary>test</summary>
+<pre>
+<code>
+- aa
+- bb
+- cc
+- dd
 </code>
 </pre>
 </details>
