@@ -9,9 +9,11 @@ NeosVRJP-Techbook
 # 編集の手順
   
 - リポジトリをクローン
+- 名前が自分になったら、作業用のブランチを作成。
 - examples(実例)かtutorial(チュートリアル)のフォルダにsample（記事の名前を英語で書く）.mdと作成し、Markdownで記事を書く。
 - indexを編集する。パスは（フォルダ/記事名.md）タイポ注意。
 - docsにあるcontributings.mdに自分の名前を書く。
+- プルリクエストを作成。
   
 ----
   
