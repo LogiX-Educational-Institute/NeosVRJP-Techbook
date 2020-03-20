@@ -17,11 +17,14 @@ NeosVRJP-Techbook
   
 ----
   
-## 二回目以降
+# 二回目以降
 - プルを行う（masterと同期させるため。）
 - 作業を行う。
 - contributings.mdに記事のURLを貼る。パスは（フォルダ/記事名.md）タイポ注意。
 - プルリクエストを行う
+
+## 補足
+GitHub Desktopを使うと、クラウドとローカルPCとのやりとりがスムーズになる。またマークダウンのプレビューはVisual Studio Codeを使うとできる。
   
 # メンバー
   
