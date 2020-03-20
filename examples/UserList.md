@@ -37,7 +37,7 @@
 ### コア部分
 まず、下のGet ChildからWriteのところまでをみてみましょう。[Get Active User](https://neosvrjp.memo.wiki/d/Get%20Active%20User)では「オブジェクトを保持しているユーザーを取得する」をします。Root Slotには多数のSlotがあり、Get Active Userをしてもほとんどはnullになります。これがnullでないときに、ImpulseをWriteにつなぎます。
 
-Writeでは、ユーザー名前を再びStringに書き込んでいきます。これが上の部分で作られます。ここではStringがnullのときとそうでないときで[?:](https://neosvrjp.memo.wiki/d/%3f%3a)を使って切り替えています。つまりnullの時にはUser Usernameからの出力をそのまま、そうで無いときには+からの出力をWriteに入れています。
+Writeでは、ユーザー名前を再びStringに書き込んでいきます。これが上の部分で作られます。ここではStringがnullのときとそうでないときで[?:](https://neosvrjp.memo.wiki/d/%3f%3a)を使って切り替えています。つまりnullの時にはUser Usernameからの出力をそのまま、そうで無いときには+からの出力をWriteに入れています。なぜこのようにしているかというと、null+改行を避けるためです。この?:がないと、最初に改行されて、そして1番目のユーザーの名前が現れます。余計な改行はTextの設定次第で見た目を悪くする原因になりえます。
 
 +の最初の入力は[User Username](https://neosvrjp.memo.wiki/d/User%20Username)を使ってユーザー名を文字列にしたものです。これに改行(New Line)加え、さらにこれまでの記録をしているStringを加えています。こうしてStringの上に次々にRoot Slotから得たユーザーの名前が付け加わっていきます。
 
@@ -50,11 +50,11 @@ Writeでは、ユーザー名前を再びStringに書き込んでいきます。
 
 ![pic](https://pbs.twimg.com/media/ETixb_AUcAEVk_x?format=jpg&name=medium "pic")
 
-### 改良版のコア部分
+### 改変版のコア部分
 
 まず一番上がセッションを立てたユーザー名にして、下に順番に入ってきたユーザー名とするには、+における文字列の接続順番を変えればできます。つまり最初にStringにして改行して次のユーザー名を入れます。
 
-また、初期化のあとStringはnullなので、nullの判定を省くことができるかもしれません。そうすると図のようになります。
+また、最初の改行を許すのであれば、?:の部分を取り除くことができます。そうすると図のようになります。
 
 ![pic](https://pbs.twimg.com/media/ETirMXvVAAIu2H3?format=jpg&name=large "pic")
 
