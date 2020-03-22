@@ -2,7 +2,7 @@
 
 ## はじめに
 
-れにうむ(@rhenium_vrc)さんが作られたハートは、渡されてからアバターの頭の近辺に来るとそのユーザーの頭にくっつきます。このLogiXについて説明します。
+アエトリズ(@Aetoriz_in_VR)さんが作られたハートは、渡されてからアバターの頭の近辺に来るとそのユーザーの頭にくっつきます。このLogiXについて説明します。
 
 ![pic](https://pbs.twimg.com/media/ETjQGOeUYAATJQl?format=jpg&name=large "pic")
 
@@ -16,7 +16,7 @@
 ![pic](https://pbs.twimg.com/media/ETjQGMvU8AIoBnP?format=jpg&name=large "pic")
 
 ### Drive Mode
-左上のところでは茶色の帯が矢印になっていて、緑色の帯も矢印で接続先が消えています。これはDrive Modeを使っています。茶色の帯はハートのインスペクターの中にあるGrabbableと接続しています。ハートがに握られているときにここに信号が来ます。緑の帯はハートのスロットです。
+左上のところでは茶色の帯が矢印になっていて、緑色の帯も矢印で接続先が消えています。茶色の帯はハートのインスペクターの中にあるGrabbableと接続しています。ハートが握られているときにここに信号が来ます。緑の帯はハートのスロットに接続されています。
 
 ### ハートを装備するユーザーの情報を得る
 [On Grabbable Grabbed](https://neosvrjp.memo.wiki/d/On%20Grabbable%20Grabbed)を用いて、このハートが握られている(グラブしている)ときにImpulseを発生させます。Impulseは一瞬しかでないので、[Local User](https://neosvrjp.memo.wiki/d/Local%20User)からの情報はWriteを使ってUserという変数に書き込んでおきます。このときにはこのハートを握ったユーザーの情報がUserに書かれます。
@@ -28,8 +28,6 @@ AさんがBさんに与えるときには上のNearest User Headの値が小さ�
 また[Not Null](https://neosvrjp.memo.wiki/d/NotNull)では、近くの頭が検出されていることを保証しています。
 
 [?:](https://neosvrjp.memo.wiki/d/%3f%3a)の出力はハートを装備するユーザーの情報が渡されます。
-
-<!-- NotNullの役割は？ -->
 
 
 ![pic](https://pbs.twimg.com/media/ETjQGM6UMAA2BKY?format=jpg&name=large "pic")

@@ -56,6 +56,8 @@ Writeでは、ユーザー名前を再びStringに書き込んでいきます。
 
 また、最初の改行を許すのであれば、?:の部分を取り除くことができます。そうすると図のようになります。
 
++への入力順番をさらに変更してString, User Username, New Lineにすれば、null+改行が入らなくなります。
+
 ![pic](https://pbs.twimg.com/media/ETirMXvVAAIu2H3?format=jpg&name=large "pic")
 
 ## 終わりに

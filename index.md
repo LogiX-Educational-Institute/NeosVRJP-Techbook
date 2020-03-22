@@ -18,6 +18,7 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
   - [色の変わるリボン](examples/ColorChangingRibbon.md)
   - [ユーザーリスト](examples/UserList.md)
   - [くっつくハート](examples/GluedHeart.md)
+  - [スロットをアクティブにしてセッションに現れさせる](examples/SetSlotActiveSelf.md)
   - [工事中]
   
 ----
