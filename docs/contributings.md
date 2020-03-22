@@ -37,7 +37,7 @@ NeosVRJP-Techbook
   - [ユーザーリスト](https://melnus.github.io/NeosVRJP-Techbook/examples/UserList.html)  
   - [くっつくハート](https://melnus.github.io/NeosVRJP-Techbook/examples/GluedHeart.html)  
   - [色の変わるリボン](https://melnus.github.io/NeosVRJP-Techbook/examples/ColorChangingRibbon.html)
-  - 
+  - [スロットをアクティブにしてセッションに現れさせる](../examples/SetSlotActiveSelf.md)
   - 
   - 
   
