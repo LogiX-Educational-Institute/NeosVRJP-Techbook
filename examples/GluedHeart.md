@@ -15,7 +15,8 @@
 全体を見渡すと、中央にHeadというのが出ています。これは左右の<<と>>を使うとBodyの他の部位、たとえば首とか手とかに変えることができます。また右には0.6とありますが、これは0.6 mの近さに近づいたときに、くっつくことになります。
 ![pic](https://pbs.twimg.com/media/ETjQGMvU8AIoBnP?format=jpg&name=large "pic")
 
-<!-- Grabbable と　ハートのスロットはどうやって接続しているのか？ -->
+### Drive Mode
+左上のところでは茶色の帯が矢印になっていて、緑色の帯も矢印で接続先が消えています。これはDrive Modeを使っています。茶色の帯はハートのインスペクターの中にあるGrabbableと接続しています。ハートがに握られているときにここに信号が来ます。緑の帯はハートのスロットです。
 
 ### ハートを装備するユーザーの情報を得る
 [On Grabbable Grabbed](https://neosvrjp.memo.wiki/d/On%20Grabbable%20Grabbed)を用いて、このハートが握られている(グラブしている)ときにImpulseを発生させます。Impulseは一瞬しかでないので、[Local User](https://neosvrjp.memo.wiki/d/Local%20User)からの情報はWriteを使ってUserという変数に書き込んでおきます。このときにはこのハートを握ったユーザーの情報がUserに書かれます。
@@ -23,6 +24,8 @@
 次に上の[Nearest User Head](https://neosvrjp.memo.wiki/d/Nearest%20User%20Head)を使って入力Slot(この場合にはハート)から見て最も近いUser Headの情報を取得します。ただしUser(ここではハートを握ったユーザー)は除かれます。そうすると2つ可能性があります。つまりAさんがBさんにハートを与えているときには、ハートを与えられたユーザーBのUser型情報(紫帯)とハートとの距離(青帯)が出力されます。もう一つは、自分で自分に与えているときですが、そのときにはUser型情報(紫帯)は空です。そのときには下の[Nearest User Head](https://neosvrjp.memo.wiki/d/Nearest%20User%20Head)が働いて自分のUser型情報と距離を出力します。
 
 AさんがBさんに与えるときには上のNearest User Headの値が小さくなり、自分で自分に与えているときには下のNearest User Headの値が小さくなります。結局ハートを装備するユーザ－が必ず選ばれるようになっています。
+
+また[Not Null](https://neosvrjp.memo.wiki/d/NotNull)では、近くの頭が検出されていることを保証しています。
 
 [?:](https://neosvrjp.memo.wiki/d/%3f%3a)の出力はハートを装備するユーザーの情報が渡されます。
 
