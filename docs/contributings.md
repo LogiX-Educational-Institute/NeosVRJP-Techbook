@@ -7,7 +7,10 @@ NeosVRJP-Techbook
 - 動画はYoutubeなどにアップして、それのリンクを貼ってください。 
   
 # 編集の手順
+各エディタ、ツールによって使用方法は異なるので、必要な部分だけ記述します。  
   
+- https://github.com/Melnus/NeosVRJP-Techbook をforkします。
+- 自分の名前のリポジトリになったことを確認します。
 - examples(実例)かtutorial(チュートリアル)のフォルダにsample（記事の名前を英語で書く）.mdと作成し、Markdownで記事を書く。
 - indexを編集する。パスは（フォルダ/記事名.md）タイポ注意。
 - docsにあるcontributings.mdに自分の名前を書く。
@@ -17,6 +20,7 @@ NeosVRJP-Techbook
   
 ## 二回目以降
   
+- fork元からプルを行い更新を反映します。
 - 作業を行う。
 - contributings.mdに記事のURLを貼る。パスは（フォルダ/記事名.md）タイポ注意。
 - プルリクエストを行う
