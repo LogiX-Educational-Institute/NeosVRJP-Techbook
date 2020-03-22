@@ -9,7 +9,7 @@ NeosVRJP-Techbook
 # 編集の手順
 各エディタ、ツールによって使用方法は異なるので、必要な部分だけ記述します。  
   
-- https://github.com/Melnus/NeosVRJP-Techbook をforkします。
+- [NeosVRJP-Techbook](https://github.com/Melnus/NeosVRJP-Techbook)をforkします。
 - 自分の名前のリポジトリになったことを確認します。
 - examples(実例)かtutorial(チュートリアル)のフォルダにsample（記事の名前を英語で書く）.mdと作成し、Markdownで記事を書く。
 - indexを編集する。パスは（フォルダ/記事名.md）タイポ注意。
