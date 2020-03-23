@@ -1,3 +1,5 @@
+<!-- NeosVR Technote-->
+
 # スロットをアクティブにしてセッションに現れさせる
 
 ## 概要
@@ -14,7 +16,7 @@
 
 ### インストール時にカメラを表示し続ける
 
-一番上の[Set Slot Active Self](https://neosvrjp.memo.wiki/d/Set%20Slot%20Active%20Active%20Self)への入力を考えると常にTrueが送られるのでActiveにする、つまりCameraをセッションに表示することをします。その条件は2つあって、1つはEz cameraのスロットの親スロットの名前に"pref"があることと、そして2つめがEz cameraのスロットのユーザーが存在していることです。
+一番上の[Set Slot Active Self](https://neosvrjp.memo.wiki/d/Set%20Slot%20Active%20Active%20Self)への入力を考えると常にTrueが送られるのでActiveにする、つまりCameraをセッションに表示することをします。その条件は2つあって、1つはEz cameraのスロットの親スロットの名前に"pref"があることと、そして2つめがEz cameraのスロットのユーザーが存在していることです。この"pref"というのはプレハブということで、まだインストールが完了していないときに残っているスロットです。インストールが完了するとEZ Cameraから"pref"というスロットは消えています。
 
 1つめはEz cameraスロットから[Get Parent Slot](https://neosvrjp.memo.wiki/d/Get%20Parent%20Slot)を使って親のスロットを取り出し、さらに[Get Slot Name](https://neosvrjp.memo.wiki/d/Get%20Slot%20Name)を使って親の名前を取り出し、これを"pref"が入っているかどうかを検査します。
 
@@ -26,11 +28,11 @@
 
 ### Init Pointスロットからカメラの位置を初期化する
 
-下の図は今回のEz Cameraスロットの様子をインスペクターで見たところです。Ez cameraスロットの下に、Init Pointがあり、そこにはPosition: Rotation: Scale:がそれぞれ保存されています。これをこの子スロットであるCameraに設定して初期化します。Init PointはEz cameraがインストールするときにこれらの値をセーブされています。
+下の図は今回のEz Cameraスロットの様子をインスペクターで見たところです。Ez cameraスロットの下に、Init Pointがあり、そこにはPosition: Rotation: Scale:がそれぞれ保存されています。NeosVRでは、子スロットの位置は親スロットの位置からの相対位置になっています。ですからCameraの位置は親のInit Pointの位置から相対的に決まります。
 
 ![pic](https://pbs.twimg.com/media/ETtPyQ7UUAA5Xnn?format=jpg&name=large "pic")
 
-まず、[Set Parent](https://neosvrjp.memo.wiki/d/Set%20Parent)を使って、Init PointInit Pointスロットの親をEz Cameraスロットにします。そして、[Set Local Position](https://neosvrjp.memo.wiki/d/Set%20Local%20Position)と[Set Local Rotation](https://neosvrjp.memo.wiki/d/SetLocalRotation)と[Set Local Scale](https://neosvrjp.memo.wiki/d/SetLocalRotation)を使ってCameraスロットの位置、回転角度、スケールを設定します。ここでSet Local Positionの左の入力値がないのですが、Cameraスロットの親スロットがInit Pointなのでそれが設定されるようになっています。
+まず、[Set Parent](https://neosvrjp.memo.wiki/d/Set%20Parent)を使って、Init Pointスロットの親をEz Cameraスロットにします。そして、[Set Local Position](https://neosvrjp.memo.wiki/d/Set%20Local%20Position)と[Set Local Rotation](https://neosvrjp.memo.wiki/d/SetLocalRotation)と[Set Local Scale](https://neosvrjp.memo.wiki/d/SetLocalRotation)を使ってCameraスロットの位置、回転角度、スケールを設定します。ここでSet Local PositionとSet Local Rotationの左の入力値がないのですが、これらは(0,0,0)が設定されます。そうするとInit PointスロットがCameraの親なので、Init Pointスロットの位置に設定されます。Init Pointスロットは左手スロットの子供であり、そこからの相対位置を持っています。これによりカメラの位置を初期化します。
 
 ![pic](https://pbs.twimg.com/media/ETtPxcQU0AEQ9AS?format=jpg&name=large "pic")
 
@@ -53,3 +55,8 @@
 
 ## おわりに
 Cameraをセッションに表示させるのには、スロットをActiveにすればいいということが分かります。また初期値の設定の仕方が書かれていました。さらにメニューボタンのダブルクリックによりImpulseを出す方法がありました。
+
+## 追記
+れにうむ(@rhenium_vrc)さんがよりシンプルなLogiXを提案しています。下記で紹介します。
+[ダブルクリックを判定する](DoubleClick.md)
+

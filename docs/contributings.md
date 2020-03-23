@@ -38,8 +38,10 @@ NeosVRJP-Techbook
   - [くっつくハート](https://melnus.github.io/NeosVRJP-Techbook/examples/GluedHeart.html)  
   - [色の変わるリボン](https://melnus.github.io/NeosVRJP-Techbook/examples/ColorChangingRibbon.html)
   - [スロットをアクティブにしてセッションに現れさせる](../examples/SetSlotActiveSelf.md)
-  - 
-  - 
+  - [ダブルクリックを判定する](../examples/DoubleClick.md)
+  - [Ez Cameraのアバターへのインストールとアンインストール
+](../examples/EzCameraInstallUninstall.md) 
+  - 作成中 
   
 - test  
   - test  

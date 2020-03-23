@@ -15,10 +15,13 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
 
 - メイキング・作例（外部リンクなど解説をまとめたもの）
   - [実例](examples/jiturei.md)  
-  - [色の変わるリボン](examples/ColorChangingRibbon.md)
-  - [ユーザーリスト](examples/UserList.md)
-  - [くっつくハート](examples/GluedHeart.md)
-  - [スロットをアクティブにしてセッションに現れさせる](examples/SetSlotActiveSelf.md)
+  - [色の変わるリボン](examples/ColorChangingRibbon.md) (FromHSV, T/10, Sin)
+  - [ユーザーリスト](examples/UserList.md) (Root Slot, Children Count, For, Get Child, Get Active User, Write, User Username, New Line, String, IsNull, NotNull, If, ?:, Relay)
+  - [くっつくハート](examples/GluedHeart.md) (On Grabbable Grabbed, Local User, Write, User, Nearest User Head, NotNull, Body Node Slot, Global Transform, Distance, On Grabbable Released, Root Slot, Set Parent)
+  - [スロットをアクティブにしてセッションに現れさせる](examples/SetSlotActiveSelf.md) (Host User, Update, Get Active User, Get Parent Slot, Get Slot Name, Containing, Standard Controller, Fire On True, Sequence, Set Slot Active Self, Elapsed Time, Get Slot Active Self, Set Local Position, SEt Local Rotation, Set Local Scale)
+  - [ダブルクリックを判定する](examples/DoubleClick.md) (If, Elapsed Time, Relay)
+  - [Ez Cameraのアバターへのインストールとアンインストール
+](examples/EzCameraInstallUninstall.md) (Button Events, Write, Sequence, Local User, Body Node Slot, Duplicate Slot, Set Parent, Set Local Position, Set Local Rotation, Set Local Scale, NotNull, Find Child By Tag, Destroy Slot, Relay)
   - [工事中]
   
 ----

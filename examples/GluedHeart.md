@@ -1,12 +1,14 @@
+<!-- NeosVR Technote-->
+
 # くっつくハート
 
 ## はじめに
 
 アエトリズ(@Aetoriz_in_VR)さんが作られたハートは、渡されてからアバターの頭の近辺に来るとそのユーザーの頭にくっつきます。このLogiXについて説明します。
 
-![pic](https://pbs.twimg.com/media/ETjQGOeUYAATJQl?format=jpg&name=large "pic")
+<img src="https://pbs.twimg.com/media/ETjQGOeUYAATJQl?format=jpg" width=200><br>
 
-![pic](https://pbs.twimg.com/media/ETjQNcBUYAEvt7q?format=jpg&name=medium "pic")
+<img src="https://pbs.twimg.com/media/ETjQNcBUYAEvt7q?format=jpg" width = 300>
 
 
 ## 解説
