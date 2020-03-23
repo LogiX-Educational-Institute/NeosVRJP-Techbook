@@ -5,6 +5,7 @@ NeosVRJP-Techbook
 - リポジトリは[NeosVRJP-Techbook](https://github.com/Melnus/NeosVRJP-Techbook)を使用します。
 - 画像は外部サイトにアップして、それのリンクを貼ってください。  
 - 動画はYoutubeなどにアップして、それのリンクを貼ってください。 
+- よくつかうMarkdownの書き方は[こちら](docs/cheatsheet.md)
   
 # 編集の手順
 各エディタ、ツールによって使用方法は異なるので、必要な部分だけ記述します。  

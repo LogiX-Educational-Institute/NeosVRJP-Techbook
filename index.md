@@ -20,12 +20,6 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
 <br>
 
 # メイキング・作例（外部リンクなど解説をまとめたもの）
-## [実例](examples/jiturei.md)  
-<details><summary>関連しているノード</summary><div>
-...
-</div></details>
-  
-  
 ## [色の変わるリボン](examples/ColorChangingRibbon.md)  
 <details><summary>関連しているノード</summary><div>
 (FromHSV, T/10, Sin)
