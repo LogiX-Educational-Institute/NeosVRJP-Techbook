@@ -1,4 +1,4 @@
-<!-- NeosVR Technote-->
+<!-- NeosVR Techbook-->
 
 # 色の変わるリボン
 

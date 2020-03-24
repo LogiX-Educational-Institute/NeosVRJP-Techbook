@@ -1,4 +1,4 @@
-<!-- NeosVR Technote-->
+<!-- NeosVR Techbook-->
 
 # Ez Cameraのアバターへのインストールとアンインストール
 
