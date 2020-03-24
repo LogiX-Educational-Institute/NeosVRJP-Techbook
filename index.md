@@ -38,25 +38,26 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
 </div></details>
   
   
-## [スロットをアクティブにしてセッションに現れさせる](examples/SetSlotActiveSelf.md)  
-<details><summary>関連しているノード</summary><div>
-(Host User, Update, Get Active User, Get Parent Slot, Get Slot Name, Containing, Standard Controller, Fire On True, Sequence, Set Slot Active Self, Elapsed Time, Get Slot Active Self, Set Local Position, SEt Local Rotation, Set Local Scale)
-</div></details> 
-  
-  
 ## [ダブルクリックを判定する](examples/DoubleClick.md)  
 <details><summary>関連しているノード</summary><div>
 (If, Elapsed Time, Relay)
 </div></details>
   
   
-## [Ez Cameraのアバターへのインストールとアンインストール](examples/EzCameraInstallUninstall.md)  
+## EZ Camera
+### [Ez Cameraのアバターへのインストールとアンインストール](examples/EzCameraInstallUninstall.md)  
 <details><summary>関連しているノード</summary><div>
 (Button Events, Write, Sequence, Local User, Body Node Slot, Duplicate Slot, Set Parent, Set Local Position, Set Local Rotation, Set Local Scale, NotNull, Find Child By Tag, Destroy Slot, Relay)
 </div></details>
   
   
-## [Submitボタンを押してインストールを完了する](examples/EzCameraSubmit.md)  
+### [スロットをアクティブにしてセッションに現れさせる](examples/SetSlotActiveSelf.md)  
+<details><summary>関連しているノード</summary><div>
+(Host User, Update, Get Active User, Get Parent Slot, Get Slot Name, Containing, Standard Controller, Fire On True, Sequence, Set Slot Active Self, Elapsed Time, Get Slot Active Self, Set Local Position, SEt Local Rotation, Set Local Scale)
+</div></details> 
+  
+  
+### [Submitボタンを押してインストールを完了する](examples/EzCameraSubmit.md)  
 <details><summary>関連しているノード</summary><div>
 (Button Events, Relay, Get Parent Slot, Get Slot Name, Contains, If Write, Destroy Slot)
 </div></details>
