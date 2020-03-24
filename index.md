@@ -24,7 +24,8 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
 <details><summary>関連しているノード</summary><div>
 (FromHSV, T/10, Sin)
 </div></details>
-  
+
+<!-- --- -->
   
 ## [ユーザーリスト](examples/UserList.md)  
 <details><summary>関連しているノード</summary><div>
@@ -38,7 +39,7 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
 </div></details>
   
   
-## [スロットをアクティブにしてセッションに現れさせる](examples/SetSlotActiveSelf.md)  
+## [スロットをアクティブにしてセッションに現れさせる](examples/SetSlotActiveSelf.md)  (EZ Camera)
 <details><summary>関連しているノード</summary><div>
 (Host User, Update, Get Active User, Get Parent Slot, Get Slot Name, Containing, Standard Controller, Fire On True, Sequence, Set Slot Active Self, Elapsed Time, Get Slot Active Self, Set Local Position, SEt Local Rotation, Set Local Scale)
 </div></details> 
@@ -50,12 +51,17 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
 </div></details>
   
   
-## [Ez Cameraのアバターへのインストールとアンインストール](examples/EzCameraInstallUninstall.md)  
+## [Ez Cameraのアバターへのインストールとアンインストール](examples/EzCameraInstallUninstall.md) (EZ Camera) 
 <details><summary>関連しているノード</summary><div>
 (Button Events, Write, Sequence, Local User, Body Node Slot, Duplicate Slot, Set Parent, Set Local Position, Set Local Rotation, Set Local Scale, NotNull, Find Child By Tag, Destroy Slot, Relay)
 </div></details>
   
-  
+
+## [Submitボタンを押してインストールを完了する](examples/EzCameraSubmit.md) (EZ Camera) 
+<details><summary>関連しているノード</summary><div>
+(Button Events, Relay, Get Parent Slot, Get Slot Name, Contains, If Write, Destroy Slot)
+</div></details>
+
 ## [工事中]
 <details><summary>関連しているノード</summary><div>
 ...

@@ -16,7 +16,7 @@
 
 ### インストール時にカメラを表示し続ける
 
-一番上の[Set Slot Active Self](https://neosvrjp.memo.wiki/d/Set%20Slot%20Active%20Self)への入力を考えると常にTrueが送られるのでActiveにする、つまりCameraをセッションに表示することをします。その条件は2つあって、1つはEz cameraのスロットの親スロットの名前に"pref"があることと、そして2つめがEz cameraのスロットのユーザーが存在していることです。この"pref"というのはプレハブということで、まだインストールが完了していないときに残っているスロットです。インストールが完了するとEZ Cameraから"pref"というスロットは消えています。
+一番上の[Set Slot Active Self](https://neosvrjp.memo.wiki/d/Set%20Slot%20Active%20Self)への入力を考えると常にTrueが送られるのでActiveにする、つまりCameraをセッションに表示することをします。その条件は2つあって、1つはEz cameraのスロットの親スロットの名前に"pref"があることと、そして2つめがEz cameraのスロットのユーザーが存在していることです。この"pref"というのはプレハブ(prefab)ということで、まだインストールが完了していないときに残っているスロットです。インストールが完了するとEZ Cameraから"pref"というスロットは消えています。
 
 1つめはEz cameraスロットから[Get Parent Slot](https://neosvrjp.memo.wiki/d/Get%20Parent%20Slot)を使って親のスロットを取り出し、さらに[Get Slot Name](https://neosvrjp.memo.wiki/d/Get%20Slot%20Name)を使って親の名前を取り出し、これを"pref"が入っているかどうかを検査します。
 
@@ -28,7 +28,7 @@
 
 ### Init Pointスロットからカメラの位置を初期化する
 
-下の図は今回のEz Cameraスロットの様子をインスペクターで見たところです。Ez cameraスロットの下に、Init Pointがあり、そこにはPosition: Rotation: Scale:がそれぞれ保存されています。NeosVRでは、子スロットの位置は親スロットの位置からの相対位置になっています。ですからCameraの位置は親のInit Pointの位置から相対的に決まります。
+下の図は最終のインストールが終わったときのEz Cameraスロットの様子をインスペクターで見たところです。Ez cameraスロットの下に、Init Pointがあり、そこにはPosition: Rotation: Scale:についてそれぞれインストールの時の値が保存されています。NeosVRでは、子スロットの位置は親スロットの位置からの相対位置になっています。ですからCameraの位置は親のInit Pointの位置から相対的に決まります。
 
 ![pic](https://pbs.twimg.com/media/ETtPyQ7UUAA5Xnn?format=jpg&name=large "pic")
 
@@ -45,7 +45,7 @@
 そしてIf文の判定が終わってから次のImpulseがSequenceから出てきて、
 [Elapsed Time](https://neosvrjp.memo.wiki/d/Elapsed%20Time)にとどき、経過時間が0にセットされて0が出力されます。このときに[<](https://neosvrjp.memo.wiki/d/%3c)はTureを出力します。
 
-ここで続いてダブルクリックをしているので、0.3秒以内に再びメニューボタンが押されると、SequenceにImpulseが流れ、IFがたたかれます。このときに[Elapsed Time](https://neosvrjp.memo.wiki/d/Elapsed%20Time)では、前回のインパルスからの経過時間を計っています。これが0.3秒以内であればIf文が成立してImpulseが[Set Local Position](https://neosvrjp.memo.wiki/d/Set%20Local%20Position)に流れます。
+ここで続いてダブルクリックをしているので、0.3秒以内に再びメニューボタンが押されると、SequenceにImpulseが流れ、Ifがたたかれます。このときに[Elapsed Time](https://neosvrjp.memo.wiki/d/Elapsed%20Time)では、前回のインパルスからの経過時間を計っています。これが0.3秒以内であればIf文が成立してImpulseが[Set Local Position](https://neosvrjp.memo.wiki/d/Set%20Local%20Position)に流れます。
 
 このようなやり方でダブルクリックを判定しています。SequenceはImpulseを複数個に分けますが、上から順にImpulseを出していくことに注意が必要です。
 
@@ -58,5 +58,6 @@ Cameraをセッションに表示させるのには、スロットをActiveに�
 
 ## 追記
 れにうむ(@rhenium_vrc)さんがよりシンプルなLogiXを提案しています。下記で紹介します。
+
 [ダブルクリックを判定する](DoubleClick.md)
 
