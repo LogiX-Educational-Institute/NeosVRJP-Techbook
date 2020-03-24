@@ -2,8 +2,8 @@
   
   
 ## URL
-[実例](examples/jiturei.md)  
-```[実例](examples/jiturei.md)```
+[実例](../examples/jiturei.md)  
+```[実例](../examples/jiturei.md)```
   
   
 ## 引き出し
