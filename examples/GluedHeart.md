@@ -6,10 +6,8 @@
 
 アエトリズ(@Aetoriz_in_VR)さんが作られたハートは、渡されてからアバターの頭の近辺に来るとそのユーザーの頭にくっつきます。このLogiXについて説明します。
 
-<img src="https://pbs.twimg.com/media/ETjQGOeUYAATJQl?format=jpg" width=200><br>
-
-<img src="https://pbs.twimg.com/media/ETjQNcBUYAEvt7q?format=jpg" width = 300>
-
+![pic](https://pbs.twimg.com/media/ETjQGOeUYAATJQl?format=jpg&name=thumb "pic") 
+![pic](https://pbs.twimg.com/media/ETjQNcBUYAEvt7q?format=jpg&name=thumb "pic")
 
 ## 解説
 

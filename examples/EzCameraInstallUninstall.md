@@ -24,13 +24,13 @@
 
 ![pic](https://pbs.twimg.com/media/ETzF-7eUwAEmclO?format=jpg&name=small "pic")
 
-これは次のスロットの階層のEZ camera by rheniumが左手の子スロットになった状態です。
+これは次のスロットの階層のEZ CCamera by rheniumが左手の子スロットになった状態です。"pref"はプレハブ(prefab)という意味で、インストール作業をしているときだけ親スロットにいます。そして間違った操作が行われないようにしています。つまり親スロットの名前に"pref"があると、インストール作業中であることが分かります。([スロットをアクティブにしてセッションに現れさせる](SetSlotActiveSelf.md)参照)
 
 ![pic](https://pbs.twimg.com/media/ETzF-7xU4AAWxz6?format=jpg&name=large "pic")
 
-さらに「Submit」ボタンを押すとuiというスロットが消されて、Init Pointとez camera logixのみが左手の子スロットとして残ります。
+さらに「Submit」ボタンを押すとuiというスロットが消されて、位置がInit Pointに書き込まれていて、最終的にInit Pointとez camera logixのみが左手の子スロットとして残ります。uiスロットには球、カメラの形、「Submit」ボタンなどが入っています。([Submitボタンを押してインストールを完了する](EzCameraSubmit.md)参照)
 
-![pic](https://pbs.twimg.com/media/ETzF-8NUYAE-hDD?format=jpg&name=medium "pic")
+![pic](https://pbs.twimg.com/media/ETzF-8NUYAE-hDD?format=jpg&name=small "pic")
 
 Ez Cameraには2つのボタンがあり、「Install」ボタンを押すと[Button Events](https://neosvrjp.memo.wiki/d/Button%20Events)が一番の上の出力(Pressed)からImpulseを出します。
 
@@ -59,4 +59,4 @@ Destory Slotで消した後もSequenceでまたImpulseをIfに戻しています
 <!--  Sequenceの2番目が上の記述であっているか確認する　-->
 
 ## おわりに
-ここではEz CameraでCameraを左手にインストール、アンインストールするLogiXを説明しました。インストール後には球と「Submit」というボタンが現れます。左手との位置を決めてこのボタンを押すとインストールが完了します。その解説はまた別な記事で行います。
+ここではEz CameraでCameraを左手にインストール、アンインストールするLogiXを説明しました。インストール後には球と「Submit」というボタンが現れます。左手との位置を決めてこのボタンを押すとインストールが完了します。その解説はまた別な記事で行います。([Submitボタンを押してインストールを完了する](EzCameraSubmit.md)参照)
