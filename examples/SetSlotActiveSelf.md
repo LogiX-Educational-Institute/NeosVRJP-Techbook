@@ -1,14 +1,14 @@
-<!-- NeosVR Technote-->
+<!-- NeosVR Techbook-->
 
 # スロットをアクティブにしてセッションに現れさせる
 
 ## 概要
 
-レニウム(@rhenium_vrc)さんが作ったEZ Cameraはインストールすると、メニューボタンのダブルクリックで、左手にカメラが現れます。これは[Set Slot Active Self](https://neosvrjp.memo.wiki/d/Set%20Slot%20Active%20Active%20Self)を使って、スロットをアクティブにしてカメラをセッションに現れさせています。このLogiXについて解説をしてみましょう。
+レニウム(@rhenium_vrc)さんが作ったEZ Cameraはインストールすると、メニューボタンのダブルクリックで、左手にカメラが現れます。これは[Set Slot Active Self](https://neosvrjp.memo.wiki/d/Set%20Slot%20Active%20Self)を使って、スロットをアクティブにしてカメラをセッションに現れさせています。このLogiXについて解説をしてみましょう。
 
 全体を見渡すと、左の方が入力になっていて、結果は右になっています。左の入力は緑色の矢印が3つあります。緑色はスロットを表しています。上からCamera, Init Point, Ez Cameraとなっています。Cameraは標準のカメラがこのEz Cameraに取り込まれています。Init Pointはインストールしたときの左手との距離、角度、スケールが記録されています。最後にこのLogiXがあるEz Cameraです。それらが分かるようにスロットの中身が表示されています。
 
-右の結果は、大きく3つあります。一番上に[Set Slot Active Self](https://neosvrjp.memo.wiki/d/Set%20Slot%20Active%20Active%20Self)があり、これを使ってCameraのスロットにActiveを送って、カメラをセッションに表示させることをします。次に真ん中はInit Pointスロットに書かれていることを[Set Local Position](https://neosvrjp.memo.wiki/d/Set%20Local%20Position)と[Set Local Rotation](https://neosvrjp.memo.wiki/d/SetLocalRotation)と[Set Local Scale](https://neosvrjp.memo.wiki/d/SetLocalRotation)を使って設定します。最後に一番下の[Set Slot Active Self](https://neosvrjp.memo.wiki/d/Set%20Slot%20Active%20Active%20Self)はメニューボタンのダブルクリックがあったときに、カメラを表示したり、逆に消したりすることをします。
+右の結果は、大きく3つあります。一番上に[Set Slot Active Self](https://neosvrjp.memo.wiki/d/Set%20Slot%20Active%20Self)があり、これを使ってCameraのスロットにActiveを送って、カメラをセッションに表示させることをします。次に真ん中はInit Pointスロットに書かれていることを[Set Local Position](https://neosvrjp.memo.wiki/d/Set%20Local%20Position)と[Set Local Rotation](https://neosvrjp.memo.wiki/d/SetLocalRotation)と[Set Local Scale](https://neosvrjp.memo.wiki/d/SetLocalRotation)を使って設定します。最後に一番下の[Set Slot Active Self](https://neosvrjp.memo.wiki/d/Set%20Slot%20Active%20Self)はメニューボタンのダブルクリックがあったときに、カメラを表示したり、逆に消したりすることをします。
 
 ![pic](https://pbs.twimg.com/media/ETtPwh7U0AA69s4?format=jpg&name=large "pic")
 
@@ -16,7 +16,7 @@
 
 ### インストール時にカメラを表示し続ける
 
-一番上の[Set Slot Active Self](https://neosvrjp.memo.wiki/d/Set%20Slot%20Active%20Active%20Self)への入力を考えると常にTrueが送られるのでActiveにする、つまりCameraをセッションに表示することをします。その条件は2つあって、1つはEz cameraのスロットの親スロットの名前に"pref"があることと、そして2つめがEz cameraのスロットのユーザーが存在していることです。この"pref"というのはプレハブということで、まだインストールが完了していないときに残っているスロットです。インストールが完了するとEZ Cameraから"pref"というスロットは消えています。
+一番上の[Set Slot Active Self](https://neosvrjp.memo.wiki/d/Set%20Slot%20Active%20Self)への入力を考えると常にTrueが送られるのでActiveにする、つまりCameraをセッションに表示することをします。その条件は2つあって、1つはEz cameraのスロットの親スロットの名前に"pref"があることと、そして2つめがEz cameraのスロットのユーザーが存在していることです。この"pref"というのはプレハブということで、まだインストールが完了していないときに残っているスロットです。インストールが完了するとEZ Cameraから"pref"というスロットは消えています。
 
 1つめはEz cameraスロットから[Get Parent Slot](https://neosvrjp.memo.wiki/d/Get%20Parent%20Slot)を使って親のスロットを取り出し、さらに[Get Slot Name](https://neosvrjp.memo.wiki/d/Get%20Slot%20Name)を使って親の名前を取り出し、これを"pref"が入っているかどうかを検査します。
 
