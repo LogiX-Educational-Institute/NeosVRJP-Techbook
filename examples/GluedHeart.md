@@ -47,3 +47,7 @@ Ifは[On Grabbable Rleased](https://neosvrjp.memo.wiki/d/On%20Grabbable%20Releas
 ## おわりに
 
 ハートがくっつくのには、ハートの親をつけるユーザーの頭にすればいいのですが、そこに至るまでにどの頭なのかとか、距離だとかが関係してきます。それを行うLogiXが上手に組まれています。
+
+## 関連するノード
+On Grabbable Grabbed, Local User, Write, User, Nearest User Head, NotNull, Body Node Slot, Global Transform, Distance, On Grabbable Released, Root Slot, Set Parent
+

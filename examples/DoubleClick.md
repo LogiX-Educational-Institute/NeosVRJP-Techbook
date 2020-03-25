@@ -24,3 +24,6 @@ Pulseは[If](https://neosvrjp.memo.wiki/d/If)から引き出したノードで�
 ちなみにRelayを使っているのは、直接つなぐと、平面にLogiXが展開できないので、わかりやすさのために入れています。
 
 また背景もワールドのごちゃごちゃした背景を消すために、ボード(DevTool → Create new... → 3D Model → Grid)をセッション内にスポーンしてくださいました。　
+
+## 関連するノード
+If, Elapsed Time, Relay

@@ -67,4 +67,5 @@ Root Slotからの情報を切り分けて最後はユーザー名の文字列�
 
 何かの役に立てば幸いです。
 
-
+## 関連しているノード
+Root Slot, Children Count, For, Get Child, Get Active User, Write, User Username, New Line, String, IsNull, NotNull, If, ?:, Relay

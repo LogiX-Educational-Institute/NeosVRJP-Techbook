@@ -56,6 +56,9 @@
 ## おわりに
 Cameraをセッションに表示させるのには、スロットをActiveにすればいいということが分かります。また初期値の設定の仕方が書かれていました。さらにメニューボタンのダブルクリックによりImpulseを出す方法がありました。
 
+## 関連しているノード
+Host User, Update, Get Active User, Get Parent Slot, Get Slot Name, Containing, Standard Controller, Fire On True, Sequence, Set Slot Active Self, Elapsed Time, Get Slot Active Self, Set Local Position, SEt Local Rotation, Set Local Scale
+
 ## 追記
 れにうむ(@rhenium_vrc)さんがよりシンプルなLogiXを提案しています。下記で紹介します。
 
