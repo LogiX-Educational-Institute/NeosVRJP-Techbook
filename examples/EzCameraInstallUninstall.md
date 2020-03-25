@@ -60,3 +60,6 @@ Destory Slotで消した後もSequenceでまたImpulseをIfに戻しています
 
 ## おわりに
 ここではEz CameraでCameraを左手にインストール、アンインストールするLogiXを説明しました。インストール後には球と「Submit」というボタンが現れます。左手との位置を決めてこのボタンを押すとインストールが完了します。その解説はまた別な記事で行います。([Submitボタンを押してインストールを完了する](EzCameraSubmit.md)参照)
+
+## 関連するノード
+Button Events, Write, Sequence, Local User, Body Node Slot, Duplicate Slot, Set Parent, Set Local Position, Set Local Rotation, Set Local Scale, NotNull, Find Child By Tag, Destroy Slot, Relay

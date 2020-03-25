@@ -34,4 +34,9 @@
 [Destroy Slot](https://neosvrjp.memo.wiki/d/Destroy%20Slot)で壊されるスロットはuiスロットで、箱や球、「Submit」ボタンなど入っています。
 
 ## おわりに
+ここでは、EZ Cameraの最後のインストール作業のLogiXについて解説を行いました。
+
+
+## 関連するノード
+Button Events, Relay, Get Parent Slot, Get Slot Name, Contains, If Write, Destroy Slot
 
