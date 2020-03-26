@@ -29,7 +29,7 @@
 ### 「Submit」が押されたらuiスロットを壊す
 ![pic](https://pbs.twimg.com/media/ETzGQKcU0AEFEaH?format=jpg&name=large "pic")
 
-動作は単純で下から見てみましょう。EZ Cameraスロットの親スロットを[Get Parent Slot](https://neosvrjp.memo.wiki/d/Get%20Parent%20Slot)を使って取り出し、その名前を[Get Slot Name](https://neosvrjp.memo.wiki/d/Get%20Slot%20Name)を使って得ます。そのstring型の結果を"pref"と[Contains](https://neosvrjp.memo.wiki/d/Contains)を使って判定して名前に"pref"が入っているかどうかを判定します。"pref"はプレハブ(prefab)で、最初のインストール作業中にはEZ Cameraの親スロットにあるのですが、インストールが終わると無くなります。ここでは"pref"がない時に、[Destroy Slot](https://neosvrjp.memo.wiki/d/Destroy%20Slot)にImpulseが伝わります。これで間違ってインストール作業中に不要な動作が起きないようにしています。
+動作は単純で下から見てみましょう。EZ Cameraスロットの親スロットを[Get Parent Slot](https://neosvrjp.memo.wiki/d/Get%20Parent%20Slot)を使って取り出し、その名前を[Get Slot Name](https://neosvrjp.memo.wiki/d/Get%20Slot%20Name)を使って得ます。そのstring型の結果を"pref"と[Contains](https://neosvrjp.memo.wiki/d/Contains)を使って判定して名前に"pref"が入っているかどうかを判定します。"pref"はプレハブ(prefab)で、最初のインストール作業中にはEZ Cameraの親スロットにあるのですが、インストールが終わると無くなります。ここでは"pref"がない時に、[Destroy Slot](https://neosvrjp.memo.wiki/d/Destroy%20Slot)にImpulseが伝わります。これで間違ってデバッグ作業中に不要な動作が起きないようにしています。もし"pref"を作らないと、Destory Slotが動いてしまい、uiスロットが消えてしまいます。
 
 [Destroy Slot](https://neosvrjp.memo.wiki/d/Destroy%20Slot)で壊されるスロットはuiスロットで、箱や球、「Submit」ボタンなど入っています。
 
