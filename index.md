@@ -34,6 +34,8 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
 ### [スロットをアクティブにしてセッションに現れさせる](examples/SetSlotActiveSelf.md)  
   
 ### [Submitボタンを押してインストールを完了する](examples/EzCameraSubmit.md)  
+
+## [自分の声が聞こえる音符](examples/VoiceRef.md)
   
 ## [工事中]
   
