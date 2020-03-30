@@ -24,7 +24,17 @@ Impulseは順番に実行するという特性から同時に二つにつなぐ�
 
 ### 入力が無いときのノードの動作
 
-[Set Local Position](https://neosvrjp.memo.wiki/d/Set%20Local%20Position)を使うときに左側の入力が無いときには、LogixToolを使ってノードを引き出してみるとわかるように、(0,0,0)が入力されています。明示しないことで見た目がすっきりします。
+[Set Local Position](https://neosvrjp.memo.wiki/d/Set%20Local%20Position)を使うときに左側の入力が無いときには、LogixTipを使ってノードを引き出してみるとわかるように、(0,0,0)が入力されています。明示しないことで見た目がすっきりします。
 
 ([Ez Cameraのアバターへのインストールとアンインストール](EzCameraInstallUninstall.md)参照)
 
+### 型変換(Cast)
+Castは変換したい先のRelayを2つ作って、それに繋げることでできます。LogixTipを装備してRelayをセカンダリーアクションでセットすると、同じ型のRelayが複製できます。
+
+int→floatを作るとき
+① floatのRelayを２つ繋げる
+Relay(float)-Relay(float)
+② 最初のRelayにintを入れる
+何か(int)-Relay(int)-Cast(int→float)→Relay(float)
+
+引用元：https://discordapp.com/channels/673668075718967296/673745117923770387/693984427100995604
