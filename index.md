@@ -34,7 +34,10 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
 ### [スロットをアクティブにしてセッションに現れさせる](examples/SetSlotActiveSelf.md)  
   
 ### [Submitボタンを押してインストールを完了する](examples/EzCameraSubmit.md)  
-  
+
+## 仮想しっぽ触覚デバイス
+### [仮想しっぽ触覚デバイス作成・導入](examples/VirtualTailSystem.md)
+
 ## [工事中]
   
   

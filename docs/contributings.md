@@ -50,7 +50,10 @@ NeosVRJP-Techbook
   - [Ez Cameraのアバターへのインストールとアンインストール
 ](../examples/EzCameraInstallUninstall.md) 
   - 作成中 
-  
+
+- kurotori
+  - [仮想しっぽ触覚デバイス](https://melnus.github.io/NeosVRJP-Techbook/examples/VirtualTailSystem.html)
+
 - test  
   - test  
   -   
