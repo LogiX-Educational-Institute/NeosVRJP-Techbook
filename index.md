@@ -27,6 +27,8 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
 ## [くっつくハート](examples/GluedHeart.md)  
  
 ## [ダブルクリックを判定する](examples/DoubleClick.md)  
+
+## [自分の声が聞こえる音符](examples/VoiceRef.md)
   
 ## EZ Camera
 ### [Ez Cameraのアバターへのインストールとアンインストール](examples/EzCameraInstallUninstall.md)  
@@ -35,8 +37,11 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
   
 ### [Submitボタンを押してインストールを完了する](examples/EzCameraSubmit.md)  
 
-## [自分の声が聞こえる音符](examples/VoiceRef.md)
-  
+
+## 仮想しっぽ触覚デバイス
+### [仮想しっぽ触覚デバイス作成・導入](examples/VirtualTailSystem.md)
+
+
 ## [工事中]
   
   

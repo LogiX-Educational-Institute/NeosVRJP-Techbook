@@ -51,7 +51,10 @@ NeosVRJP-Techbook
 ](../examples/EzCameraInstallUninstall.md) 
   - [自分の声が聞こえる音符](../examples/VoiceRef.md)
   - 作成中 
-  
+
+- kurotori
+  - [仮想しっぽ触覚デバイス](https://melnus.github.io/NeosVRJP-Techbook/examples/VirtualTailSystem.html)
+
 - test  
   - test  
   -   
