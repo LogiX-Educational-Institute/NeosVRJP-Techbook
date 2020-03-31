@@ -43,4 +43,4 @@ ProbablePrimeさんの作った(?)不思議な作品を紹介します。
 とてもおもしろいLogiXでした。
 
 ## 関連しているノード
-Grabbable Grabber, On Grabbable Grabbed, On Grabbable Rleased, Get Slot, Get Object Root, Write, Grabbed, On Grabbable Rleased, Get Slot, Get Object Root, Write, Get Active User, Equip Avatar, WriteRef, On Grabbable Released, ->, User, Slot
+Grabbable Grabber, On Grabbable Grabbed, On Grabbable Released, Get Slot, Get Object Root, Write, Grabbed, On Grabbable Released, Get Slot, Get Object Root, Write, Get Active User, Equip Avatar, WriteRef, On Grabbable Released, ->, User, Slot

@@ -31,10 +31,10 @@ Impulseは順番に実行するという特性から同時に二つにつなぐ�
 ### 型変換(Cast)
 Castは変換したい先のRelayを2つ作って、それに繋げることでできます。LogixTipを装備してRelayをセカンダリーアクションでセットすると、同じ型のRelayが複製できます。
 
-int→floatを作るとき
-① floatのRelayを２つ繋げる
-Relay(float)-Relay(float)
-② 最初のRelayにintを入れる
-何か(int)-Relay(int)-Cast(int→float)→Relay(float)
+int→floatを作るとき<br>
+① floatのRelayを２つ繋げる<br>
+Relay(float)-Relay(float)<br>
+② 最初のRelayにintを入れる<br>
+何か(int)-Relay(int)-Cast(int→float)→Relay(float)<br>
 
-引用元：https://discordapp.com/channels/673668075718967296/673745117923770387/693984427100995604
+[引用元](https://discordapp.com/channels/673668075718967296/673745117923770387/693984427100995604)
