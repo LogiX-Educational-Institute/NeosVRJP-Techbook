@@ -50,6 +50,7 @@ NeosVRJP-Techbook
   - [Ez Cameraのアバターへのインストールとアンインストール
 ](../examples/EzCameraInstallUninstall.md) 
   - [自分の声が聞こえる音符](../examples/VoiceRef.md)
+  - [スモールライト](../examples/SmallLight.md)
   - 作成中 
 
 - kurotori
