@@ -29,6 +29,8 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
 ## [ダブルクリックを判定する](examples/DoubleClick.md)  
 
 ## [自分の声が聞こえる音符](examples/VoiceRef.md)
+
+## [スモールライト](examples/SmallLight.md)
   
 ## EZ Camera
 ### [Ez Cameraのアバターへのインストールとアンインストール](examples/EzCameraInstallUninstall.md)  
