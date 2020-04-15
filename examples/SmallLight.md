@@ -47,12 +47,20 @@
 
 この図のようにConeColliderとGrabbableのEnabledのチェックを外して、衝突判定がされず、つかむこともできない、つまり一体となっているように設定します。
 
+## 追記
+
+実は上のLogiXではオブジェクトに対してはうまく動くのですが、アバターには大きさは小さくなるのですが、視点がずれていくという問題があります。これは普通のオブジェクトの場合にはObject RootのScaleを書き換えればいいのに対して、アバターはその上のUser RootのScaleを変える必要があり、違うからです。
+
+![pic](https://pbs.twimg.com/media/EVpOnK6UYAUvrYA?format=jpg&name=large "pic")
+
+そこで、上のようにGet Object Rootからアバターの場合には[Get Active User Root](https://neosvrjp.memo.wiki/d/Get%20Active%20User%20Root)を使ってアバターかどうかを判断して、そのスロットをセットするようにします。これでアバターに向かってスモールライトを使うことができるようになりました。
+
 ## おわりに
 
 NeosVRはドラえもんの世界を再現できます。独自の物理(LogiX)があり、物理法則を利用してワールドのオブジェクトに影響を与えることができます。ここではスモールライトを紹介しました。
 
 ## 関連するノード
-Raycater, Standard Controller, Global Transform, Set Global Scale, Get Slot Get Object Root, Get Active user, Fire While True, Impulse Timeout, Global Transform, Set Global Scale
+Raycater, Standard Controller, Global Transform, Set Global Scale, Get Slot Get Object Root, Get Active User, Fire While True, Impulse Timeout, Global Transform, Set Global Scale
 
 
 <!-- ## 追記 -->
