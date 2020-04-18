@@ -51,7 +51,7 @@ RandomAudioClipPlayerがそのサウンドエフェクトを再生します。Cl
 ![pic](https://pbs.twimg.com/media/EV0JvFOU0AAu2gx?format=jpg&name=large "pic")
 
 
-[On Cllision Start](https://neosvrjp.memo.wiki/d/On%20Collision%20Start)はトーラスからつながっており、衝突（コリージョン）が起こったときにImpulseが発生します。そして[Sequence](https://neosvrjp.memo.wiki/d/Sequence)でImpulseを二つに分けます。最初はそのまま[Boolean Latch](https://neosvrjp.memo.wiki/d/Boolean%20Latch)に行き、その出力のTureは先ほどのParticle SystemのCircleEmitterコンポーネントのEnabled:につながっています。つまり、トーラスに何かがぶつかると、CircleEmitterが動き、パーティクルシステムにより三角が巻き散らかされます。そして、0.1秒後にふたたびBoolean LatchにImpulseが送られますが、ここはToggleとなっているので、FalseがEnabled:に送られます。これで次の衝突を待つ準備ができました。
+[On Cllision Start](https://neosvrjp.memo.wiki/d/On%20Collision%20Start)はトーラスからつながっており、衝突（コリージョン）が起こったときにImpulseが発生します。そして[Sequence](https://neosvrjp.memo.wiki/d/Sequence)でImpulseを二つに分けます。最初はそのまま[Boolean Latch](https://neosvrjp.memo.wiki/d/Boolean%20Latch)に行き、その出力のTrueは先ほどのParticle SystemのCircleEmitterコンポーネントのEnabled:につながっています。つまり、トーラスに何かがぶつかると、CircleEmitterが動き、パーティクルシステムにより三角が巻き散らかされます。そして、0.1秒後にふたたびBoolean LatchにImpulseが送られますが、ここはToggleとなっているので、FalseがEnabled:に送られます。これで次の衝突を待つ準備ができました。
 
 このようにここでのLogiXはとてもシンプルで、トーラスに何かがぶつかったときにCircleEmitterコンポーネントのEnabled:をスイッチオンして、その後オフにしているだけでした。
 
