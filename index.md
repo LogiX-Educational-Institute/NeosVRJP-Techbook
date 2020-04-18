@@ -31,6 +31,10 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
 ## [自分の声が聞こえる音符](examples/VoiceRef.md)
 
 ## [スモールライト](examples/SmallLight.md)
+
+## [ブースター](examples/Booster.md)
+
+## [拘束具](/examples/Restraint.md)
   
 ## EZ Camera
 ### [Ez Cameraのアバターへのインストールとアンインストール](examples/EzCameraInstallUninstall.md)  
