@@ -6,7 +6,7 @@
 
 ![pic](https://pbs.twimg.com/media/EV0KgIiVcAMNqLM?format=jpg&name=small "pic")
 
-このトーラスに腕を通すと、そのユーザーは腕を動かすことができなくなってしまいます。どのようにしてこの機能を実現しているのでしょうか？
+このトーラスに腕を通すと、そのユーザーは右腕を動かすことができなくなってしまいます。どのようにしてこの機能を実現しているのでしょうか？
 
 ## 解説
 
@@ -37,4 +37,10 @@
 
 Set Slot Active Self, Is Grabbable Grabbed, Get Active User, Body Node Slot, Fire On True, Write
 
-<!-- ## 追記 -->
+## 追記
+
+作者のAetorizさんはこの拘束具を拡張して、両手、両足、首、腰まで動けなくする機能を追加しています。参考までにそのLogiXを下記に示しておきましょう。たしかにRight Hand Proxyの他にいくつものProxyが設定されていることが分かります。しかし、とても根気のいるプログラミングだったでしょう。
+
+![pic](https://pbs.twimg.com/media/EWHv2AHU4AMUsQU?format=jpg&name=large "pic")
+
+![pic](https://pbs.twimg.com/media/EWHv2ANU8AApaNH?format=jpg&name=large "pic")
