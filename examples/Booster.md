@@ -32,7 +32,7 @@ Spinnerによりトーラスは回転します。ここでは_speed:が(0,60,0)�
 
 CylinderColliderはコライダーを設定します。ここでは半径0.5 mの円柱がトーラスの中心に設定されます。そしてType:にTriggerが設定されています。オブジェクトがこのコライダーに当たると、トリガーのイベントが発生します。
 
-CharacterEventTriggerでは、上で設定したトリガーが発生したときに、TriggerEnterd(list):に書かれていることが実行されるように設定しています。ここではサウンドエフェクトが再生されるようになっています。
+CharacterEventTriggerでは、上で設定したトリガーが発生したときに、TriggerEnterd(list):に書かれていることが実行されるように設定しています。ここではサウンドエフェクトが再生されるようになっています。具体的にはPlayAtPointと書かれていますが、これはこのコンポーネントの下にあるRandomAudioClipPlayerコンポーネントにある、PlayAtPoint():をグラブしてこのプロパティにドロップして設定することができます。
 
 RandomAudioClipPlayerがそのサウンドエフェクトを再生します。Clips(list):に今回のサウンドエフェクトが格納されています。それは下図のようになっています。
 
