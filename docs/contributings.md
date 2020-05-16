@@ -54,6 +54,7 @@ NeosVRJP-Techbook
   - [ブースター](../examples/Booster.md)
   - [拘束具](../examples/Restraint.md)
   - [どこでもドア](../examples/AnywayDoor.md)
+  - [アバターにハンドサインから表情をつける](../examples/AvatarEmotion.md)
   　
   - 作成中 
 
