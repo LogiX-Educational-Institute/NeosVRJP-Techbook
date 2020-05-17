@@ -37,6 +37,8 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
 ## [拘束具](/examples/Restraint.md)
 
 ## [どこでもドア](/examples/AnywayDoor.md)
+
+## [アバターにハンドサインから表情をつける](/examples/AvatarEmotion.md)
   
 ## EZ Camera
 ### [Ez Cameraのアバターへのインストールとアンインストール](examples/EzCameraInstallUninstall.md)  
