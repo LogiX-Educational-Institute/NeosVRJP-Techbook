@@ -70,7 +70,7 @@ LogixTip: [https://neosvrjp.memo.wiki/d/LogixTip](https://neosvrjp.memo.wiki/d/L
 
 実際にやるとシェープキーを探すのが大変かもしれません。あるいは複数のシェープキーに接続する必要があるかもしれません。いずれにしろNeosVRではすべての作業をVR内でできるところがとても面白いです。
 
-## 関連するノ
+## 関連するノード
 Get Active User, Smooth Leap, Unpack xy, Rad -> Deg
 
 <!-- ## 追記 -->
