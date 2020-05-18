@@ -63,7 +63,7 @@ LogixTip: [https://neosvrjp.memo.wiki/d/LogixTip](https://neosvrjp.memo.wiki/d/L
 
 これがAetorizさんが作ったVIVEのバージョンです。
 
-ここでは[Unpack xy](https://neosvrjp.memo.wiki/d/Unpack%20xy)により、VIVEのタッチパネルのどの位置が触られているのかを得て、(x,y)に変換します。これをAtan(アークタンジェント)ではy/xを入力し、Acos(アークコサイン)ではx/&#124;V&#124;から角度(ラジアン)に変換しています。Atanは時々、無限大とかを出すことがあるので、Acosが使いやすいかもしれません。ここで&#124;V&#124;=sqrt(x^2+y^2)です。そして[Rad -> Deg](https://neosvrjp.memo.wiki/d/Rad%20%26gt%3b-%20Deg)で180/3.14を与えて、度数に変換します。この角度の位置により表情をつけるようにしています。
+ここでは[Unpack xy](https://neosvrjp.memo.wiki/d/Unpack%20xy)により、VIVEのタッチパネルのどの位置が触られているのかを得て、(x,y)に変換します。これをAtan(アークタンジェント)ではy/xを入力し、Acos(アークコサイン)ではx/&#124;V&#124;から角度(ラジアン)に変換しています。Atanは時々、無限大とかを出すことがあるので、Acosが使いやすいかもしれません。ここで&#124;V&#124;=sqrt(x^2+y^2)です。そして[Rad -> Deg](https://neosvrjp.memo.wiki/d/Rad-%a1%e4Deg)で180/3.14を与えて、度数に変換します。この角度の位置により表情をつけるようにしています。
 
 
 ## おわりに
