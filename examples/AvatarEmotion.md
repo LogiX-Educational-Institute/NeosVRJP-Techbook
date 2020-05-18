@@ -12,13 +12,13 @@
 ![pic](https://pbs.twimg.com/media/EYIetEeU4AAbVsK?format=jpg&name=large "pic")
 
 オレンジさんによるとてもいいビデオがあります。
-https://twitter.com/mikan3134/status/1212216322668412928
+[https://twitter.com/mikan3134/status/1212216322668412928](https://twitter.com/mikan3134/status/1212216322668412928)
 
 これを観るとコンパクトでとてもわかりやすいです。ただ、DevToolTip, LogixTipの使い方が分からないとだめです。詳しくは、NeosVR日本語Wikiの記事を参照してください。
 
-DevToolTip: https://neosvrjp.memo.wiki/d/DevToolTip
+DevToolTip: [https://neosvrjp.memo.wiki/d/DevToolTip](https://neosvrjp.memo.wiki/d/DevToolTip)
 
-LogixTip: https://neosvrjp.memo.wiki/d/LogixTip
+LogixTip: [https://neosvrjp.memo.wiki/d/LogixTip](https://neosvrjp.memo.wiki/d/LogixTip)
 
 <br>
 
