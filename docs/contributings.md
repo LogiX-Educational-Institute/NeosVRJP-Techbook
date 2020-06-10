@@ -47,14 +47,14 @@ NeosVRJP-Techbook
   - [色の変わるリボン](https://melnus.github.io/NeosVRJP-Techbook/examples/ColorChangingRibbon.html)
   - [スロットをアクティブにしてセッションに現れさせる](../examples/SetSlotActiveSelf.md)
   - [ダブルクリックを判定する](../examples/DoubleClick.md)
-  - [Ez Cameraのアバターへのインストールとアンインストール
-](../examples/EzCameraInstallUninstall.md) 
+  - [Ez Cameraのアバターへのインストールとアンインストール](../examples/EzCameraInstallUninstall.md) 
   - [自分の声が聞こえる音符](../examples/VoiceRef.md)
   - [スモールライト](../examples/SmallLight.md)
   - [ブースター](../examples/Booster.md)
   - [拘束具](../examples/Restraint.md)
   - [どこでもドア](../examples/AnywayDoor.md)
   - [アバターにハンドサインから表情をつける](../examples/AvatarEmotion.md)
+  - [発券機](../examples/TicketingMachine.md)
   　
   - 作成中 
 

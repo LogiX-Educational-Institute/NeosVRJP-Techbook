@@ -39,6 +39,8 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
 ## [どこでもドア](/examples/AnywayDoor.md)
 
 ## [アバターにハンドサインから表情をつける](/examples/AvatarEmotion.md)
+
+## [発券機](/examples/TicketingMachine.md)
   
 ## EZ Camera
 ### [Ez Cameraのアバターへのインストールとアンインストール](examples/EzCameraInstallUninstall.md)  
