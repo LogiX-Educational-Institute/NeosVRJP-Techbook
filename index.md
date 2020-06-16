@@ -4,7 +4,7 @@
 
 LogiXのノードやToolTipsなど、各項目について詳しく知りたい方は日本語Wikiをご利用ください。
 また、本サイトに関する要望などは[こちら](https://github.com/Melnus/NeosVRJP-Techbook/issues/35)までご投稿ください。
-その他ご連絡は現在は「Melnus」(@Melnus_/Melnus#2688)が一括して行っております。
+そのほか何か連絡事項あれば「Melnus」(@Melnus_/Melnus#2688)まで連絡してください。
   
   
   
