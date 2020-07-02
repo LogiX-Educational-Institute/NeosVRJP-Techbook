@@ -15,7 +15,7 @@
 
 ![pic](https://pbs.twimg.com/media/Eb6a_MXVcAAU1l_?format=jpg&name=large "pic")
 
-LogiXは[Play](https://neosvrjp.memo.wiki/d/Play)ノードを使う単純なものです。このPlusのところに、後半で説明するBoxのGrabableを使い[On Grabbalbe Grabbed](https://neosvrjp.memo.wiki/d/On%20Grabbable%20Grabbed)の出力をつなげば、箱を掴んだ（グラブした）ときに、インパルスが流れて音が出ます。
+LogiXは[Play](https://neosvrjp.memo.wiki/d/Play)ノードを使う単純なものです。このPulseのところに、後半で説明するBoxのGrabableを使い[On Grabbalbe Grabbed](https://neosvrjp.memo.wiki/d/On%20Grabbable%20Grabbed)の出力をつなげば、箱を掴んだ（グラブした）ときに、インパルスが流れて音が出ます。
 
 
 ![pic](https://pbs.twimg.com/media/Eb6a-fPVcAM4tYp?format=jpg&name=large "pic")
@@ -144,4 +144,8 @@ Play, Play One Shot, Audio Clip Input, On Grabbalbe Grabbed, Puls
 
 AudioClipPlayer, AudioOutput, StaticAudioClipProvider
 
-<!-- ## 追記 -->
+## 追記
+
+![pic](https://pbs.twimg.com/media/Eb9TlE0UEAAYOHN?format=jpg&name=large "pic")
+
+[Play One Shot](https://neosvrjp.memo.wiki/d/Play%20One%20Shot)ノードを使用するとここの図にあるように、音を鳴らすたびにスロットに"OneShotAudio"が現れて、音が鳴り終わると消されます。したがって一時的に作っては消すので、資源的に有利だそうです。[Play One Shot](https://neosvrjp.memo.wiki/d/Play%20One%20Shot)ノードでは音量とかも細かく指定できるので、便利です。
