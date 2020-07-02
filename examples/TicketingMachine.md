@@ -15,7 +15,7 @@ spoil(@tpmpt206)さんはサイン会ができるワールドを発案して、�
 
 真ん中ほどの[On Loaded](https://neosvrjp.memo.wiki/d/On%20loaded)はセッションが開始して、この発券機のスロットが読み込まれたときにインパルスを発生させます。ここでは[Write](https://neosvrjp.memo.wiki/d/Write)を使って0をInt変数に書き込んでいます。Writeの出力は薄いオレンジ色の帯でIntに繋がっています。これが整理券番号の初期化です。なお、上にPulseがありますが、これはデバッグ用に、強制的に0を書き込む為に入れています。
 
-そして[Button Events](https://neosvrjp.memo.wiki/d/Button%20Events)によってボタンが押されたときにインパルスが発生するようにします。先ほどのInt変数の値を1つ増やして、[ToStr](https://neosvrjp.memo.wiki/d/ToStr)により二桁の文字列にしてこれを、整理券の番号として書き出しています。
+そして[Button Events](https://neosvrjp.memo.wiki/d/Button%20Events)によってボタンが押されたときにインパルスが発生するようにします。先ほどのInt変数の値を1つ増やして、[ToString](https://neosvrjp.memo.wiki/d/ToString)により二桁の文字列にしてこれを、整理券の番号として書き出しています。
 
 さらにもう一つ先のWriteを使って、この数字は元のInt変数に書き込まれています。
 

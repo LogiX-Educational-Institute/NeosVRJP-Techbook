@@ -45,6 +45,8 @@ LogiXのノードやToolTipsなど、各項目について詳しく知りたい�
 ## [アバターにハンドサインから表情をつける](/examples/AvatarEmotion.md)
 
 ## [発券機](/examples/TicketingMachine.md)
+
+## [音の鳴る箱](/examples/BoxWithSound.md)
   
 ## EZ Camera
 ### [Ez Cameraのアバターへのインストールとアンインストール](examples/EzCameraInstallUninstall.md)  
