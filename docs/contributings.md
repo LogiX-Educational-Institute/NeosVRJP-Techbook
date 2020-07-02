@@ -54,7 +54,8 @@ NeosVRJP-Techbook
   - [拘束具](../examples/Restraint.md)
   - [どこでもドア](../examples/AnywayDoor.md)
   - [アバターにハンドサインから表情をつける](../examples/AvatarEmotion.md)
-  - [発券機](../examples/TicketingMachine.md)
+  - [発券機](../examples/TicketingMachine.md)BoxWithSound
+  - [音の鳴る箱](../examples/BoxWithSound.md)
   　
   - 作成中 
 
