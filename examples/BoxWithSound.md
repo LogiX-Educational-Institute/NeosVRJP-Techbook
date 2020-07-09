@@ -149,3 +149,5 @@ AudioClipPlayer, AudioOutput, StaticAudioClipProvider
 ![pic](https://pbs.twimg.com/media/Eb9TlE0UEAAYOHN?format=jpg&name=large "pic")
 
 [Play One Shot](https://neosvrjp.memo.wiki/d/Play%20One%20Shot)ノードを使用するとここの図にあるように、音を鳴らすたびにスロットに"OneShotAudio"が現れて、音が鳴り終わると消されます。したがって一時的に作っては消すので、資源的に有利だそうです。[Play One Shot](https://neosvrjp.memo.wiki/d/Play%20One%20Shot)ノードでは音量とかも細かく指定できるので、便利です。
+
+音ファイルのURLはneosdbから始まります。これはNeosVRのクラウドサーバーにあるデータのアドレスとなっています。自分の作った音ファイルを載せたいときには、インベントリに保存します。すぐあとではlocalですが、しばらくしてsyncされるとneosdbとなります。
