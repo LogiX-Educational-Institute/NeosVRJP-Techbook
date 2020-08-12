@@ -38,3 +38,9 @@ Relay(float)-Relay(float)<br>
 何か(int)-Relay(int)-Cast(int→float)→Relay(float)<br>
 
 [引用元](https://discordapp.com/channels/673668075718967296/673745117923770387/693984427100995604)
+
+### Neos UIのボタンを押した人のUSER NAMEを取得する方法がわかりません。
+InteractionのButton EventsノードをNeosButtonコンポーネントに繋いでPressed(またはReleased)をWriteに繋げ、LocalUserをVariableのUserに書きこみでButtonを押したUserをとれます。  
+  
+またLocalUserは、ButtonEventsの出力するSource(Component)→GetSlot→GetActiveUserでも代用できます。  
+(NeosVR JP discord 質問 2020/3/23)  
