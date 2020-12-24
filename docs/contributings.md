@@ -2,7 +2,7 @@ NeosVRJP-Techbook
 
 # 編集について  
 
-- リポジトリは[NeosVRJP-Techbook](https://github.com/Melnus/NeosVRJP-Techbook)を使用します。
+- リポジトリは[NeosVRJP-Techbook](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)を使用します。
 - 画像は外部サイトにアップして、それのリンクを貼ってください。  
 - 動画はYoutubeなどにアップして、それのリンクを貼ってください。 
 - よくつかうMarkdownの書き方は[こちら](../docs/cheatsheet.md)
@@ -16,12 +16,12 @@ NeosVRJP-Techbook
 # 編集の手順
   
 前提:  
-元の[リポジトリ](https://github.com/Melnus/NeosVRJP-Techbook)を上流  
+元の[リポジトリ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)を上流  
 あなたがforkしたリポジトリを支流と表現します。  
   
 また、各エディタ、ツールによって使用方法は異なるので、必要な部分だけ記述します。  
   
-- [NeosVRJP-Techbook](https://github.com/Melnus/NeosVRJP-Techbook)をforkします。
+- [NeosVRJP-Techbook](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)をforkします。
 - 自分の名前のリポジトリになったことを確認します。(支流内での作業"～～")  
 - 任意であなたの開発環境などへクローンを行ってください。  
 - 二回目以降のためにCode>Cloneから上流のURL(末尾git)をコピーしUpstreamなど分かるように登録しておいてください。
@@ -66,9 +66,9 @@ NeosVRJP-Techbook
   
 - litalita
   - [Particle Systemを使って桜の花びらをはらはらと散らそう](https://melnus.github.io/NeosVRJP-Techbook/tutorial/particlesystem.html)  
-  - [ユーザーリスト](https://melnus.github.io/NeosVRJP-Techbook/examples/UserList.html)  
-  - [くっつくハート](https://melnus.github.io/NeosVRJP-Techbook/examples/GluedHeart.html)  
-  - [色の変わるリボン](https://melnus.github.io/NeosVRJP-Techbook/examples/ColorChangingRibbon.html)
+  - [ユーザーリスト](https://logix-educational-institute.github.io/NeosVRJP-Techbook/examples/UserList.html)  
+  - [くっつくハート](https://logix-educational-institute.github.io/NeosVRJP-Techbook/examples/GluedHeart.html)  
+  - [色の変わるリボン](https://logix-educational-institute.github.io/NeosVRJP-Techbook/examples/ColorChangingRibbon.html)
   - [スロットをアクティブにしてセッションに現れさせる](../examples/SetSlotActiveSelf.md)
   - [ダブルクリックを判定する](../examples/DoubleClick.md)
   - [Ez Cameraのアバターへのインストールとアンインストール](../examples/EzCameraInstallUninstall.md) 
@@ -86,7 +86,7 @@ NeosVRJP-Techbook
   
   
 - kurotori
-  - [仮想しっぽ触覚デバイス](https://melnus.github.io/NeosVRJP-Techbook/examples/VirtualTailSystem.html)
+  - [仮想しっぽ触覚デバイス](https://logix-educational-institute.github.io/NeosVRJP-Techbook/examples/VirtualTailSystem.html)
   
   
 - [NeosVR日本語Wikiメンバー](https://neosvrjp.memo.wiki/members/)
