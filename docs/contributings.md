@@ -2,7 +2,7 @@ NeosVRJP-Techbook
 
 # 編集について  
 
-- リポジトリは[NeosVRJP-Techbook](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)を使用します。
+- リポジトリは[NeosVRJP-Techbook](https://github.com/LogiX-Educational-Institute/NeosVRJP-Techbook)を使用します。
 - 画像は外部サイトにアップして、それのリンクを貼ってください。  
 - 動画はYoutubeなどにアップして、それのリンクを貼ってください。 
 - よくつかうMarkdownの書き方は[こちら](../docs/cheatsheet.md)
@@ -16,12 +16,12 @@ NeosVRJP-Techbook
 # 編集の手順
   
 前提:  
-元の[リポジトリ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)を上流  
+元の[リポジトリ](https://github.com/LogiX-Educational-Institute/NeosVRJP-Techbook)を上流  
 あなたがforkしたリポジトリを支流と表現します。  
   
 また、各エディタ、ツールによって使用方法は異なるので、必要な部分だけ記述します。  
   
-- [NeosVRJP-Techbook](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)をforkします。
+- [NeosVRJP-Techbook](https://github.com/LogiX-Educational-Institute/NeosVRJP-Techbook)をforkします。
 - 自分の名前のリポジトリになったことを確認します。(支流内での作業"～～")  
 - 任意であなたの開発環境などへクローンを行ってください。  
 - 二回目以降のためにCode>Cloneから上流のURL(末尾git)をコピーしUpstreamなど分かるように登録しておいてください。
