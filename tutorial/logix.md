@@ -1,4 +1,6 @@
 - [LogiX](#logix)
+  - [動画でのチュートリアル](#動画でのチュートリアル)
+  - [文章でのチュートリアル](#文章でのチュートリアル)
   - [Tips](#tips)
     - [Impulseは分岐できない](#impulseは分岐できない)
     - [変数の初期化](#変数の初期化)
@@ -6,13 +8,23 @@
     - [入力が無いときのノードの動作](#入力が無いときのノードの動作)
     - [型変換(Cast)](#型変換cast)
     - [Neos UIのボタンを押した人のUSER NAMEを取得する方法がわかりません。](#neos-uiのボタンを押した人のuser-nameを取得する方法がわかりません)
-
+  
+  
 # LogiX  
-動画でのチュートリアル
+## 動画でのチュートリアル
 - [【Neos VR】3分でできちゃうLogiXの作り方！(Youtube)](https://www.youtube.com/watch?v=Bhg2zbBQUoY)
 
 - [【LogiX講習会】初級編その2『ゲーム制作』(Youtube)](https://www.youtube.com/watch?v=-dHo8T2J1WQ)
-
+  
+## 文章でのチュートリアル
+  
+- [NeosVRでのLogiX事始め（バーチャル空間でプログラミング）- @pet_sensei](https://qiita.com/pet_sensei/items/ea9bf12e07e04e803496)  
+  
+- [LogiXチュートリアル](tutorial/logixtutorial.md)  
+  
+そのほか[Qiita](https://qiita.com/tags/neosvr)にも解説などの記事があります。  
+  
+  
 ## Tips
 
 ### Impulseは分岐できない
