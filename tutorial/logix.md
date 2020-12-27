@@ -9,9 +9,9 @@
 
 # LogiX  
 動画でのチュートリアル
-- [【Neos VR】3分でできちゃうLogiXの作り方！](https://www.youtube.com/watch?v=Bhg2zbBQUoY)
+- [【Neos VR】3分でできちゃうLogiXの作り方！(Youtube)](https://www.youtube.com/watch?v=Bhg2zbBQUoY)
 
-- [【LogiX講習会】初級編その2『ゲーム制作』](https://www.youtube.com/watch?v=-dHo8T2J1WQ)
+- [【LogiX講習会】初級編その2『ゲーム制作』(Youtube)](https://www.youtube.com/watch?v=-dHo8T2J1WQ)
 
 ## Tips
 
