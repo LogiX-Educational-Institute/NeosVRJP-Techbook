@@ -1,6 +1,17 @@
-# LogiX
+- [LogiX](#logix)
+  - [Tips](#tips)
+    - [Impulseは分岐できない](#impulseは分岐できない)
+    - [変数の初期化](#変数の初期化)
+    - [スロットの位置](#スロットの位置)
+    - [入力が無いときのノードの動作](#入力が無いときのノードの動作)
+    - [型変換(Cast)](#型変換cast)
+    - [Neos UIのボタンを押した人のUSER NAMEを取得する方法がわかりません。](#neos-uiのボタンを押した人のuser-nameを取得する方法がわかりません)
 
-[日本語WikiのLogiXの紹介記事](https://neosvrjp.memo.wiki/d/LogiX)
+# LogiX  
+動画でのチュートリアル
+- [【Neos VR】3分でできちゃうLogiXの作り方！](https://www.youtube.com/watch?v=Bhg2zbBQUoY)
+
+- [【LogiX講習会】初級編その2『ゲーム制作』](https://www.youtube.com/watch?v=-dHo8T2J1WQ)
 
 ## Tips
 
