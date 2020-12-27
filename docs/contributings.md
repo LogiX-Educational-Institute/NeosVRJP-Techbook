@@ -5,7 +5,7 @@ NeosVRJP-Techbook
 - リポジトリは[NeosVRJP-Techbook](https://github.com/LogiX-Educational-Institute/NeosVRJP-Techbook)を使用します。
 - 画像は外部サイトにアップして、それのリンクを貼ってください。  
 - 動画はYoutubeなどにアップして、それのリンクを貼ってください。 
-- よくつかうMarkdownの書き方は[こちら](../docs/cheatsheet.md)
+- よくつかうMarkdownの書き方は[こちら](https://LogiX-Educational-Institute.github.io/NeosVRJP-Techbook/docs/cheatsheet.html)
 - index.mdにある見出しについて（暫定）;
   
 |大見出し(#)|中見出し(##)|小見出し(###)|
@@ -43,7 +43,7 @@ NeosVRJP-Techbook
 - 上流からプルを行い更新を反映します。  
 ～～  
 - 作業を行う。
-- contributings.mdに記事のURLを貼る。パスは（フォルダ/記事名.md）タイポ注意。
+- contributings.mdに記事のURLを貼る。パスはタイポ注意。
 - 同様にプルリクエストを行う  
 ～～  
   
@@ -52,7 +52,7 @@ NeosVRJP-Techbook
 次のことを確認してください;  
 - forkをしたあと自分の名前のリポジトリで作業しているかどうか　
 - 上流からプルしているかどうか
-- Markdownの[書き方](../docs/cheatsheet.md)にあっているかどうか
+- Markdownの[書き方](https://LogiX-Educational-Institute.github.io/NeosVRJP-Techbook/docs/cheatsheet.html)にあっているかどうか
 - コミットしたあとプッシュされているかどうか
   
   
@@ -65,22 +65,22 @@ NeosVRJP-Techbook
   
   
 - litalita
-  - [Particle Systemを使って桜の花びらをはらはらと散らそう](https://melnus.github.io/NeosVRJP-Techbook/tutorial/particlesystem.html)  
+  - [Particle Systemを使って桜の花びらをはらはらと散らそう](https://LogiX-Educational-Institute.github.io/NeosVRJP-Techbook/tutorial/particlesystem.html)  
   - [ユーザーリスト](https://logix-educational-institute.github.io/NeosVRJP-Techbook/examples/UserList.html)  
   - [くっつくハート](https://logix-educational-institute.github.io/NeosVRJP-Techbook/examples/GluedHeart.html)  
   - [色の変わるリボン](https://logix-educational-institute.github.io/NeosVRJP-Techbook/examples/ColorChangingRibbon.html)
-  - [スロットをアクティブにしてセッションに現れさせる](../examples/SetSlotActiveSelf.md)
-  - [ダブルクリックを判定する](../examples/DoubleClick.md)
-  - [Ez Cameraのアバターへのインストールとアンインストール](../examples/EzCameraInstallUninstall.md) 
-  - [自分の声が聞こえる音符](../examples/VoiceRef.md)
-  - [スモールライト](../examples/SmallLight.md)
-  - [ブースター](../examples/Booster.md)
-  - [拘束具](../examples/Restraint.md)
-  - [どこでもドア](../examples/AnywayDoor.md)
-  - [アバターにハンドサインから表情をつける](../examples/AvatarEmotion.md)
-  - [発券機](../examples/TicketingMachine.md)BoxWithSound
-  - [音の鳴る箱](../examples/BoxWithSound.md)
-  - [ストップウォッチゲーム](../examples/StopWatchGame.md)
+  - [スロットをアクティブにしてセッションに現れさせる](https://LogiX-Educational-Institute.github.io/NeosVRJP-Techbook/examples/SetSlotActiveSelf.html)
+  - [ダブルクリックを判定する](https://LogiX-Educational-Institute.github.io/NeosVRJP-Techbook/examples/DoubleClick.html)
+  - [Ez Cameraのアバターへのインストールとアンインストール](https://LogiX-Educational-Institute.github.io/NeosVRJP-Techbook/examples/EzCameraInstallUninstall.html) 
+  - [自分の声が聞こえる音符](https://LogiX-Educational-Institute.github.io/NeosVRJP-Techbook/examples/VoiceRef.html)
+  - [スモールライト](https://LogiX-Educational-Institute.github.io/NeosVRJP-Techbook/examples/SmallLight.html)
+  - [ブースター](https://LogiX-Educational-Institute.github.io/NeosVRJP-Techbook/examples/Booster.html)
+  - [拘束具](https://LogiX-Educational-Institute.github.io/NeosVRJP-Techbook/examples/Restraint.html)
+  - [どこでもドア](https://LogiX-Educational-Institute.github.io/NeosVRJP-Techbook/examples/AnywayDoor.html)
+  - [アバターにハンドサインから表情をつける](https://LogiX-Educational-Institute.github.io/NeosVRJP-Techbook/examples/AvatarEmotion.html)
+  - [発券機](https://LogiX-Educational-Institute.github.io/NeosVRJP-Techbook/examples/TicketingMachine.html)BoxWithSound
+  - [音の鳴る箱](https://LogiX-Educational-Institute.github.io/NeosVRJP-Techbook/examples/BoxWithSound.html)
+  - [ストップウォッチゲーム](https://LogiX-Educational-Institute.github.io/NeosVRJP-Techbook/examples/StopWatchGame.html)
   　
   - 作成中 
   
