@@ -28,13 +28,14 @@
   
   
 # はじめに
-
-
-これはNeosVR日本語Wiki [https://neosvrjp.memo.wiki/](https://neosvrjp.memo.wiki/)　の応用編である「複数の項目にまたがる」＆「初心者で扱うものよりは難しい」項目に限って、専門にまとめる用の技術ノートです。
-
-LogiXのノードやToolTipsなど、各項目について詳しく知りたい方は日本語Wikiをご利用ください。
-また、本サイトに関する要望などは[こちら](https://github.com/LogiX-Educational-Institute/NeosVRJP-Techbook/issues/35)までご投稿ください。
-そのほか何か連絡事項あれば「Melnus」(@Melnus_/Melnus#2688)まで連絡してください。
+  
+  
+これはNeosVR日本語Wiki [https://neosvrjp.memo.wiki/](https://neosvrjp.memo.wiki/)　の応用編である「複数の項目にまたがる」＆「初心者で扱うものよりは難しい」項目に限って、専門にまとめる用の技術ノートです。  
+  
+NeosVRの基本的な操作やToolTipに関しては[日本語Wiki](https://neosvrjp.memo.wiki/)、[ノード一覧(公式Wiki)](https://wiki.neos.com/LogiX/ja) に関しては公式Wikiをご覧ください。LogiX全般に関して、チュートリアルや作例は以下の目次からご覧ください。  
+  
+また、本サイトに関する要望などは[こちら](https://github.com/LogiX-Educational-Institute/NeosVRJP-Techbook/issues/35)までご投稿ください。  
+そのほか何か連絡事項あれば「Melnus」(@Melnus_/Melnus#2688)まで連絡してください。  
   
   
   
