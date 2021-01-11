@@ -1,4 +1,6 @@
-- [一覧](#一覧)
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)  
+- [LogiX](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/logix.html)  
+- [一覧](#一覧)  
   - [組み込み型](#組み込み型)
   - [クラス](#クラス)
   - [インターフェイス](#インターフェイス)

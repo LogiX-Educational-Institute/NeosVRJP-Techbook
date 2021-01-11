@@ -1,3 +1,7 @@
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)  
+- [LogiX](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/logix.html)  
+- [ノード一覧(公式Wiki)](https://wiki.neos.com/LogiX/ja)  
+- [型一覧](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/datatype.html)  
 - [オブジェクトに入ってるLogixを見てみよう！！！](#オブジェクトに入ってるlogixを見てみよう)
 - [LogiXをオブジェクトに設定しよう！](#logixをオブジェクトに設定しよう)
   - [オブジェクトを用意しよう！](#オブジェクトを用意しよう)

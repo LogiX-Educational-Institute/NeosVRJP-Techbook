@@ -1,5 +1,18 @@
 <!-- NeosVR Techbook-->
-
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/) 
+- [スモールライト](#スモールライト)
+  - [概要](#概要)
+  - [解説](#解説)
+    - [全体](#全体)
+    - [物体の検出](#物体の検出)
+    - [トリガーを引いていることの検出](#トリガーを引いていることの検出)
+    - [物体のスケールを小さくする](#物体のスケールを小さくする)
+    - [グリーンレーザーの処理](#グリーンレーザーの処理)
+  - [追記](#追記)
+  - [おわりに](#おわりに)
+  - [関連するノード](#関連するノード)
+  
+  
 # スモールライト
 
 ## 概要
@@ -61,6 +74,10 @@ NeosVRはドラえもんの世界を再現できます。独自の物理(LogiX)�
 
 ## 関連するノード
 Raycater, Standard Controller, Global Transform, Set Global Scale, Get Slot Get Object Root, Get Active User, Fire While True, Impulse Timeout, Global Transform, Set Global Scale
+  
+  
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)  
+- [LogiX](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/logix.html)  
+- [ノード一覧(公式Wiki)](https://wiki.neos.com/LogiX/ja)  
+- [型一覧](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/datatype.html)  
 
-
-<!-- ## 追記 -->

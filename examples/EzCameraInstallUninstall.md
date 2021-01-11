@@ -1,5 +1,15 @@
 <!-- NeosVR Techbook-->
-
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/) 
+- [Ez Cameraのアバターへのインストールとアンインストール](#ez-cameraのアバターへのインストールとアンインストール)
+  - [概要](#概要)
+  - [解説](#解説)
+    - [全体](#全体)
+    - [インストール作業](#インストール作業)
+    - [アンインストール作業](#アンインストール作業)
+  - [おわりに](#おわりに)
+  - [関連するノード](#関連するノード)
+  
+  
 # Ez Cameraのアバターへのインストールとアンインストール
 
 ## 概要
@@ -63,3 +73,10 @@ Destory Slotで消した後もSequenceでまたImpulseをIfに戻しています
 
 ## 関連するノード
 Button Events, Write, Sequence, Local User, Body Node Slot, Duplicate Slot, Set Parent, Set Local Position, Set Local Rotation, Set Local Scale, NotNull, Find Child By Tag, Destroy Slot, Relay
+
+  
+  
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)  
+- [LogiX](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/logix.html)  
+- [ノード一覧(公式Wiki)](https://wiki.neos.com/LogiX/ja)  
+- [型一覧](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/datatype.html)  

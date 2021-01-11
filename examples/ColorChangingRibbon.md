@@ -1,5 +1,12 @@
 <!-- NeosVR Techbook-->
-
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/) 
+- [色の変わるリボン](#色の変わるリボン)
+  - [概要](#概要)
+  - [解説](#解説)
+  - [おわりに](#おわりに)
+  - [関連するノード](#関連するノード)
+  
+  
 # 色の変わるリボン
 
 ## 概要
@@ -26,3 +33,10 @@ LogiXではノードにLogiXツールの先端を当てて帯を引き出し、�
 
 ## 関連するノード
 FromHSV, T/10, Sin
+
+  
+  
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)  
+- [LogiX](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/logix.html)  
+- [ノード一覧(公式Wiki)](https://wiki.neos.com/LogiX/ja)  
+- [型一覧](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/datatype.html)  

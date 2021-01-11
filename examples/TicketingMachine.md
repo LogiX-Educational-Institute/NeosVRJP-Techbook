@@ -1,4 +1,11 @@
 <!-- NeosVR Techbook-->
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/) 
+- [発券機](#発券機)
+  - [概要](#概要)
+  - [解説](#解説)
+  - [おわりに](#おわりに)
+  - [関連するノード](#関連するノード)
+
 
 # 発券機
 
@@ -34,6 +41,10 @@ Prefと書かれているのが整理券で、NumCardの下にはBasicという�
 ## 関連するノード
 
 On Loaded, Write, Button Events, ToStr, Duplicate Slot, Set Parent, Root Slot
-
-
-<!-- ## 追記 -->
+  
+  
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)  
+- [LogiX](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/logix.html)  
+- [ノード一覧(公式Wiki)](https://wiki.neos.com/LogiX/ja)  
+- [型一覧](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/datatype.html)  
+  

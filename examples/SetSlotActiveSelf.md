@@ -1,5 +1,16 @@
 <!-- NeosVR Techbook-->
-
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/) 
+- [スロットをアクティブにしてセッションに現れさせる](#スロットをアクティブにしてセッションに現れさせる)
+  - [概要](#概要)
+  - [解説](#解説)
+    - [インストール時にカメラを表示し続ける](#インストール時にカメラを表示し続ける)
+    - [Init Pointスロットからカメラの位置を初期化する](#init-pointスロットからカメラの位置を初期化する)
+    - [メニューボタンのダブルクリックで表示する](#メニューボタンのダブルクリックで表示する)
+  - [おわりに](#おわりに)
+  - [関連しているノード](#関連しているノード)
+  - [追記](#追記)
+  
+  
 # スロットをアクティブにしてセッションに現れさせる
 
 ## 概要
@@ -64,3 +75,7 @@ Host User, Update, Get Active User, Get Parent Slot, Get Slot Name, Containing, 
 
 [ダブルクリックを判定する](DoubleClick.md)
 
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)  
+- [LogiX](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/logix.html)  
+- [ノード一覧(公式Wiki)](https://wiki.neos.com/LogiX/ja)  
+- [型一覧](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/datatype.html)  

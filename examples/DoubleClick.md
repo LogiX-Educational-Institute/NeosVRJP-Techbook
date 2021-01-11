@@ -1,5 +1,12 @@
 <!-- NeosVR Techbook-->
-
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/) 
+- [ダブルクリックを判定する](#ダブルクリックを判定する)
+  - [概要](#概要)
+  - [解説](#解説)
+  - [おわりに](#おわりに)
+  - [関連するノード](#関連するノード)
+  
+  
 # ダブルクリックを判定する
 
 ## 概要
@@ -27,3 +34,11 @@ Pulseは[If](https://neosvrjp.memo.wiki/d/If)から引き出したノードで�
 
 ## 関連するノード
 If, Elapsed Time, Relay
+
+  
+  
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)  
+- [LogiX](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/logix.html)  
+- [ノード一覧(公式Wiki)](https://wiki.neos.com/LogiX/ja)  
+- [型一覧](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/datatype.html)  
+  

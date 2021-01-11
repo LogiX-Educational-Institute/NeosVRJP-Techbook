@@ -1,5 +1,16 @@
 <!-- NeosVR Techbook-->
-
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/) 
+- [自分の声が聞こえる音符](#自分の声が聞こえる音符)
+  - [はじめに](#はじめに)
+  - [解説](#解説)
+    - [全体図](#全体図)
+    - [User変数とSlot変数の初期化](#user変数とslot変数の初期化)
+    - [dummy avatarに着替える](#dummy-avatarに着替える)
+    - [WriteRefで音に接続](#writerefで音に接続)
+  - [終わりに](#終わりに)
+  - [関連しているノード](#関連しているノード)
+  
+  
 # 自分の声が聞こえる音符
 
 ## はじめに
@@ -44,3 +55,8 @@ ProbablePrimeさんの作った(?)不思議な作品を紹介します。
 
 ## 関連しているノード
 Grabbable Grabber, On Grabbable Grabbed, On Grabbable Released, Get Slot, Get Object Root, Write, Grabbed, On Grabbable Released, Get Slot, Get Object Root, Write, Get Active User, Equip Avatar, WriteRef, On Grabbable Released, ->, User, Slot
+  
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)  
+- [LogiX](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/logix.html)  
+- [ノード一覧(公式Wiki)](https://wiki.neos.com/LogiX/ja)  
+- [型一覧](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/datatype.html)  

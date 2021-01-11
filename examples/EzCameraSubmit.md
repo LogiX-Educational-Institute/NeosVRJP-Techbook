@@ -1,5 +1,14 @@
 <!-- NeosVR Techbook-->
-
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/) 
+- [Submitボタンを押してインストールを完了する](#submitボタンを押してインストールを完了する)
+  - [概要](#概要)
+  - [解説](#解説)
+    - [全体](#全体)
+    - [「Submit」が押されたらuiスロットを壊す](#submitが押されたらuiスロットを壊す)
+  - [おわりに](#おわりに)
+  - [関連するノード](#関連するノード)
+  
+  
 # Submitボタンを押してインストールを完了する
 
 ## 概要
@@ -40,3 +49,9 @@
 ## 関連するノード
 Button Events, Relay, Get Parent Slot, Get Slot Name, Contains, If Write, Destroy Slot
 
+  
+  
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)  
+- [LogiX](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/logix.html)  
+- [ノード一覧(公式Wiki)](https://wiki.neos.com/LogiX/ja)  
+- [型一覧](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/datatype.html)  

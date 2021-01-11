@@ -1,5 +1,17 @@
 <!-- NeosVR Techbook-->
-
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/) 
+- [拘束具](#拘束具)
+  - [概要](#概要)
+  - [解説](#解説)
+    - [全体](#全体)
+    - [Slotの中身](#slotの中身)
+    - [トーラスをつかんでいるとき](#トーラスをつかんでいるとき)
+    - [トーラスから手を離すと](#トーラスから手を離すと)
+  - [おわりに](#おわりに)
+  - [関連するノード](#関連するノード)
+  - [追記](#追記)
+  
+  
 # 拘束具
 
 ## 概要
@@ -44,3 +56,10 @@ Set Slot Active Self, Is Grabbable Grabbed, Get Active User, Body Node Slot, Fir
 ![pic](https://pbs.twimg.com/media/EWHv2AHU4AMUsQU?format=jpg&name=large "pic")
 
 ![pic](https://pbs.twimg.com/media/EWHv2ANU8AApaNH?format=jpg&name=large "pic")
+  
+  
+  
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)  
+- [LogiX](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/logix.html)  
+- [ノード一覧(公式Wiki)](https://wiki.neos.com/LogiX/ja)  
+- [型一覧](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/datatype.html)  

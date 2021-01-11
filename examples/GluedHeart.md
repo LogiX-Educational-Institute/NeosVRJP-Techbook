@@ -1,5 +1,16 @@
 <!-- NeosVR Techbook-->
-
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/) 
+- [くっつくハート](#くっつくハート)
+  - [はじめに](#はじめに)
+  - [解説](#解説)
+    - [全体](#全体)
+    - [Drive Mode](#drive-mode)
+    - [ハートを装備するユーザーの情報を得る](#ハートを装備するユーザーの情報を得る)
+    - [ハートと頭の距離が近くなったらくっつける](#ハートと頭の距離が近くなったらくっつける)
+  - [おわりに](#おわりに)
+  - [関連するノード](#関連するノード)
+  
+  
 # くっつくハート
 
 ## はじめに
@@ -50,4 +61,9 @@ Ifは[On Grabbable Rleased](https://neosvrjp.memo.wiki/d/On%20Grabbable%20Releas
 
 ## 関連するノード
 On Grabbable Grabbed, Local User, Write, User, Nearest User Head, NotNull, Body Node Slot, Global Transform, Distance, On Grabbable Released, Root Slot, Set Parent
-
+  
+  
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)  
+- [LogiX](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/logix.html)  
+- [ノード一覧(公式Wiki)](https://wiki.neos.com/LogiX/ja)  
+- [型一覧](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/datatype.html)  

@@ -1,5 +1,26 @@
 <!-- NeosVR Techbook-->
-
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/) 
+- [音の鳴る箱](#音の鳴る箱)
+  - [概要](#概要)
+  - [解説1](#解説1)
+    - [全体1](#全体1)
+    - [audioスロットの準備](#audioスロットの準備)
+    - [3つのコンポーネント追加と設定](#3つのコンポーネント追加と設定)
+    - [Logixの配線](#logixの配線)
+    - [後始末](#後始末)
+  - [解説2](#解説2)
+    - [全体2](#全体2)
+    - [audioスロットの準備](#audioスロットの準備-1)
+    - [コンポーネントの設定](#コンポーネントの設定)
+    - [Audio Clip Inputの設定](#audio-clip-inputの設定)
+    - [Logixの配線](#logixの配線-1)
+    - [後始末](#後始末-1)
+  - [おわりに](#おわりに)
+  - [関連するノード](#関連するノード)
+  - [関連するコンポーネント](#関連するコンポーネント)
+  - [追記](#追記)
+  
+  
 # 音の鳴る箱
 
 ## 概要
@@ -151,3 +172,10 @@ AudioClipPlayer, AudioOutput, StaticAudioClipProvider
 [Play One Shot](https://neosvrjp.memo.wiki/d/Play%20One%20Shot)ノードを使用するとここの図にあるように、音を鳴らすたびにスロットに"OneShotAudio"が現れて、音が鳴り終わると消されます。したがって一時的に作っては消すので、資源的に有利だそうです。[Play One Shot](https://neosvrjp.memo.wiki/d/Play%20One%20Shot)ノードでは音量とかも細かく指定できるので、便利です。
 
 音ファイルのURLはneosdbから始まります。これはNeosVRのクラウドサーバーにあるデータのアドレスとなっています。自分の作った音ファイルを載せたいときには、インベントリに保存します。すぐあとではlocalですが、しばらくしてsyncされるとneosdbとなります。
+
+  
+  
+- [トップページ](https://logix-educational-institute.github.io/NeosVRJP-Techbook/)  
+- [LogiX](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/logix.html)  
+- [ノード一覧(公式Wiki)](https://wiki.neos.com/LogiX/ja)  
+- [型一覧](https://logix-educational-institute.github.io/NeosVRJP-Techbook/tutorial/datatype.html)  
